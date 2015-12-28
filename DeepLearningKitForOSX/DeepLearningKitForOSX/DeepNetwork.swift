@@ -23,7 +23,7 @@ public class DeepNetwork {
     var previous_shape: [Float]!
     var blob_cache: [Dictionary<String,([Float],[Float])>] = []
     
-    init() {
+    public init() {
         // Get access to iPhone or iPad GPU
         metalDevice = MTLCreateSystemDefaultDevice()
         
@@ -35,7 +35,7 @@ public class DeepNetwork {
         metalDefaultLibrary = metalDevice.newDefaultLibrary()
     }
     
-    func loadNetworkFromJson(jsonNetworkFileName: String) {
+    public func loadNetworkFromJson(jsonNetworkFileName: String) {
         deepNetworkAsDict = loadJSONFile(jsonNetworkFileName)!
     }
     
