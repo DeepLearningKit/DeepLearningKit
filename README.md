@@ -16,6 +16,13 @@ developed in Metal and Swift](http://deeplearningkit.org/wp-content/uploads/2016
 ### 4. Want to help develop DeepLearningKit with Swift and Metal?
 Check out [deeplearningkit.org/contribute/](http://deeplearningkit.org/contribute/)
 
-
-
+### 5. Citing DeepLearningKit?
+```
+@misc{2015DeepLearningKit,
+    author = {Amund Tveit, Torbjørn Morland and Thomas Brox Røst},
+    title = {DeepLearningKit - an Open Source Deep Learning Framework for Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
+    url = {http://deeplearningkit.org/wp-content/uploads/2016/01/DeepLearningKitPaper.pdf},
+    howpublished = {Online}
+}
+```
 
