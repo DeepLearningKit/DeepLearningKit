@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0119)http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad/ -->
+<html lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="google-site-verification" content="aUHp60h55kXiSXVDzQYbPETT2qn5IBi9KbYMbcAO3MQ">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Tutorial – Using DeepLearningKit with iOS for iPhone and iPad | Open Source Deep Learning Framework for iOS, OS X and tvOS</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://deeplearningkit.org/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="http://deeplearningkit.org/wp-content/themes/iconic-one/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<!-- This section is created with the SZ-Google for WordPress plugin 1.9.3 -->
+<!-- ===================================================================== -->
+<!-- ===================================================================== -->
+<link rel="alternate" type="application/rss+xml" title="Open Source Deep Learning Framework for iOS, OS X and tvOS » Feed" href="http://deeplearningkit.org/feed/">
+<link rel="alternate" type="application/rss+xml" title="Open Source Deep Learning Framework for iOS, OS X and tvOS » Comments Feed" href="http://deeplearningkit.org/comments/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/deeplearningkit.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Tutorial_DeepLearningKit_for_iOS_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="themonic-fonts-css" href="./Tutorial_DeepLearningKit_for_iOS_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="themonic-style-css" href="./Tutorial_DeepLearningKit_for_iOS_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom-style-css" href="./Tutorial_DeepLearningKit_for_iOS_files/custom.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='themonic-ie-css'  href='http://deeplearningkit.org/wp-content/themes/iconic-one/css/ie.css?ver=20130305' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="mc4wp-form-themes-css" href="./Tutorial_DeepLearningKit_for_iOS_files/form-themes.min.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="http://deeplearningkit.org/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://deeplearningkit.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://deeplearningkit.org/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.4.1">
+<link rel="canonical" href="./Tutorial_DeepLearningKit_for_iOS_files/Tutorial_DeepLearningKit_for_iOS.html">
+<link rel="shortlink" href="http://deeplearningkit.org/?p=14">
+<link rel="alternate" type="application/json+oembed" href="http://deeplearningkit.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdeeplearningkit.org%2Ftutorials-for-ios-os-x-and-tvos%2Ftutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://deeplearningkit.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdeeplearningkit.org%2Ftutorials-for-ios-os-x-and-tvos%2Ftutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad%2F&amp;format=xml">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="http://deeplearningkit.org/wp-content/uploads/2015/12/cropped-dlk300x300-32x32.png" sizes="32x32">
+<link rel="icon" href="http://deeplearningkit.org/wp-content/uploads/2015/12/cropped-dlk300x300-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="http://deeplearningkit.org/wp-content/uploads/2015/12/cropped-dlk300x300-180x180.png">
+<meta name="msapplication-TileImage" content="http://deeplearningkit.org/wp-content/uploads/2015/12/cropped-dlk300x300-270x270.png">
+
+<style type="text/css"></style></head><body class="page page-id-14 page-child parent-pageid-18 page-template-default custom-font-enabled single-author"><a href="https://github.com/DeepLearningKit/DeepLearningKit" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-async="false"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./Tutorial_DeepLearningKit_for_iOS_files/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+<script src="./Tutorial_DeepLearningKit_for_iOS_files/saved_resource" type="text/javascript"></script>
+
+
+
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+					
+		<div class="themonic-logo">
+        <a href="http://deeplearningkit.org/" title="Open Source Deep Learning Framework for iOS, OS X and tvOS" rel="home" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img src="./Tutorial_DeepLearningKit_for_iOS_files/cropped-original-6380-9659556-e1450025037913.png" alt="Open Source Deep Learning Framework for iOS, OS X and tvOS" style="vertical-align: middle;"></a>
+
+ <span style="vertical-align: middle;font-size:120%"><a href="https://github.com/deeplearningkit" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-async="false">Open Source Deep Learning for iOS, OS X and tvOS</a></span>
+
+
+		</div>
+
+
+		
+		<div class="socialmedia">
+
+
+							<a href="https://github.com/deeplearningkit" target="_blank" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="false" data-slimstat-async="true"><img src="./Tutorial_DeepLearningKit_for_iOS_files/github.ico" alt="Fork me on GitHub"></a> 
+										<a href="https://deeplearningkit.slack.com/" target="_blank" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="false" data-slimstat-async="true"><img src="./Tutorial_DeepLearningKit_for_iOS_files/slack.png" width="32" height="32" alt="Subscribe to our community on Slack"></a> 
+										<a href="https://www.youtube.com/channel/UCco_i7xEr1Z33LjU4SP8woA" target="_blank" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="false" data-slimstat-async="true"><img src="./Tutorial_DeepLearningKit_for_iOS_files/youtube.png" alt="Subscribe to our channel on YouTube"></a> 
+										<a href="http://twitter.com/deeplearningkit" target="_blank" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="false" data-slimstat-async="true"><img src="./Tutorial_DeepLearningKit_for_iOS_files/twitter.png" alt="Follow us on Twitter"></a> 
+											<a href="https://www.facebook.com/deeplearningkit/" target="_blank" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="false" data-slimstat-async="true"><img src="./Tutorial_DeepLearningKit_for_iOS_files/facebook.png" alt="Follow us on Facebook"></a>
+											</div>
+		
+
+		
+		<nav id="site-navigation" class="themonic-nav" role="navigation">
+			<a class="assistive-text" href="http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad/#content" title="Skip to content" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Skip to content</a>
+			<div id="menu-top" class="nav-menu"><ul><li><a href="http://deeplearningkit.org/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Home</a></li><li class="page_item page-item-33"><a href="http://deeplearningkit.org/about/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">About</a></li><li class="page_item page-item-74"><a href="http://deeplearningkit.org/blog/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Blog</a></li><li class="page_item page-item-97"><a href="http://deeplearningkit.org/contribute/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Contribute</a></li><li class="page_item page-item-163"><a href="http://deeplearningkit.org/publications/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Publications</a></li><li class="page_item page-item-103"><a href="http://deeplearningkit.org/support/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Support</a></li><li class="page_item page-item-18 page_item_has_children current_page_ancestor current_page_parent"><a href="http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Tutorials</a><ul class="children"><li class="page_item page-item-14 current_page_item"><a href="./Tutorial_DeepLearningKit_for_iOS_files/Tutorial_DeepLearningKit_for_iOS.html" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Tutorial – Using DeepLearningKit with iOS for iPhone and iPad</a></li><li class="page_item page-item-16"><a href="http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-using-deeplearningkit-with-os-x-for-macbook-and-imac/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Tutorial – Using DeepLearningKit with OS X for MacBook and iMac</a></li><li class="page_item page-item-12"><a href="http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-using-deeplearningkit-with-tvos-for-apple-tv/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Tutorial – Using DeepLearningKit with tvOS for Apple TV</a></li></ul></li></ul></div>
+		</nav><!-- #site-navigation -->
+		<div class="clear"></div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-14" class="post-14 page type-page status-publish hentry">
+		<header class="entry-header">
+			<h1 class="entry-title">Tutorial – Using DeepLearningKit with iOS for iPhone and iPad</h1>
+		</header>
+
+		<div class="entry-content">
+			<ol>
+<li><strong>Clone DeepLearningKit: &nbsp;git clone&nbsp;https://github.com/DeepLearningKit/DeepLearningKit.git</strong></li>
+</ol>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.48.05.png" rel="attachment wp-att-136" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-136" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.48.05.png" alt="Screen Shot 2015-12-28 at 14.48.05" width="1352" height="204" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.48.05-300x45.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.48.05-768x116.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.48.05-1024x155.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.48.05-660x100.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.48.05.png 1352w" sizes="(max-width: 1352px) 100vw, 1352px"></a></p>
+<p><strong>2. Open DeepLearningKitForiOSDemoApp.xcodeproj in xcode (e.g. from Finder)</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.49.20.png" rel="attachment wp-att-134" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-134" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.49.20.png" alt="Screen Shot 2015-12-28 at 14.49.20" width="1188" height="396" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.49.20-300x100.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.49.20-768x256.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.49.20-1024x341.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.49.20-660x220.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.49.20.png 1188w" sizes="(max-width: 1188px) 100vw, 1188px"></a></p>
+<p><strong>3. Have a look at ViewController.swift – notice that import DeepLearningKitForiOS&nbsp;gives an error (in red)</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.50.17.png" rel="attachment wp-att-133" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-133" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.50.17.png" alt="Screen Shot 2015-12-28 at 14.50.17" width="2362" height="1734" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.17-300x220.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.17-768x564.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.17-1024x752.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.17-660x485.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.17.png 2362w" sizes="(max-width: 2362px) 100vw, 2362px"></a></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.50.44.png" rel="attachment wp-att-130" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-130" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.50.44.png" alt="Screen Shot 2015-12-28 at 14.50.44" width="1854" height="340" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.44-300x55.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.44-768x141.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.44-1024x188.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.44-660x121.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.50.44.png 1854w" sizes="(max-width: 1854px) 100vw, 1854px"></a></p>
+<p><strong>4. Open Finder and Drag DeepLearningForiOS.xcodeproj over to the demo app in xcode</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.52.15.png" rel="attachment wp-att-129" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-129" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.52.15.png" alt="Screen Shot 2015-12-28 at 14.52.15" width="648" height="430" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.52.15-300x199.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.52.15.png 648w" sizes="(max-width: 648px) 100vw, 648px"></a></p>
+<p><strong>5. Highlighted line below shows how the framework&nbsp;DeepLearningForiOS.xcodeproj can be&nbsp;included</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.52.55.png" rel="attachment wp-att-128" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-128" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-14.52.55.png" alt="Screen Shot 2015-12-28 at 14.52.55" width="514" height="1204" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.52.55-128x300.png 128w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.52.55-437x1024.png 437w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-14.52.55.png 514w" sizes="(max-width: 514px) 100vw, 514px"></a></p>
+<p><strong>6. Click on app settings (highlighted&nbsp;line in left part of Xcode) and go the General tab on the right</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.48.44.png" rel="attachment wp-att-138" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-138" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.48.44.png" alt="Screen Shot 2015-12-28 at 15.48.44" width="2228" height="432" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.48.44-300x58.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.48.44-768x149.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.48.44-1024x199.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.48.44-660x128.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.48.44.png 2228w" sizes="(max-width: 2228px) 100vw, 2228px"></a></p>
+<p><strong>7. Scroll down to embedded binaries in General tab and add DeepLearningKitforiOS.frameworkiOS</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.21.28.png" rel="attachment wp-att-127" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-127" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.21.28.png" alt="Screen Shot 2015-12-28 at 15.21.28" width="822" height="928" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.28-266x300.png 266w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.28-768x867.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.28-660x745.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.28.png 822w" sizes="(max-width: 822px) 100vw, 822px"></a></p>
+<p><strong>8. Result afterwards should look something like this – embedded binaries down to the right</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.21.41.png" rel="attachment wp-att-126" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-126" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.21.41.png" alt="Screen Shot 2015-12-28 at 15.21.41" width="2280" height="1484" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.41-300x195.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.41-768x500.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.41-1024x666.png 1024w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.41-660x430.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.21.41.png 2280w" sizes="(max-width: 2280px) 100vw, 2280px"></a></p>
+<p><strong>9. Drag the Shaders.metal file from DeepLearningKitForiOS into top project</strong></p>
+<p>(not quite sure why this needs to be done, but anyway)</p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.56.09.png" rel="attachment wp-att-142" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-142" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.56.09.png" alt="Screen Shot 2015-12-28 at 15.56.09" width="510" height="1320"></a></p>
+<p><img class="alignnone size-full wp-image-141" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.56.18.png" alt="Screen Shot 2015-12-28 at 15.56.18" width="514" height="620" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.56.18-249x300.png 249w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.56.18.png 514w" sizes="(max-width: 514px) 100vw, 514px"></p>
+<p><strong>10. Connect iPhone to your Mac (e.g. iPhone 6S), compile and run, should get something like this</strong></p>
+<p><a href="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.32.35.png" rel="attachment wp-att-124" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false"><img class="alignnone size-full wp-image-124" src="./Tutorial_DeepLearningKit_for_iOS_files/Screen-Shot-2015-12-28-at-15.32.35.png" alt="Screen Shot 2015-12-28 at 15.32.35" width="862" height="192" srcset="http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.32.35-300x67.png 300w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.32.35-768x171.png 768w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.32.35-660x147.png 660w, http://deeplearningkit.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-28-at-15.32.35.png 862w" sizes="(max-width: 862px) 100vw, 862px"></a></p>
+					</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+				
+<div id="comments" class="comments-area">
+
+	
+	
+	
+</div><!-- #comments .comments-area -->			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><p class="widget-title">Sign up for deeplearningkit-announce</p><script type="text/javascript">!function(){window.mc4wp||(window.mc4wp={listeners:[],forms:{on:function(n,w){window.mc4wp.listeners.push({event:n,callback:w})}}})}();</script><!-- MailChimp for WordPress v3.0.9 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-61 mc4wp-form-theme mc4wp-form-theme-red" method="post" data-id="61" data-name="deeplearningkit-announce"><div class="mc4wp-form-fields"><p>
+	<label>Email address: </label>
+	<input type="email" name="EMAIL" placeholder="Your email address" required="">
+</p>
+
+<p>
+	<input type="submit" value="Sign up">
+</p><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" autofill="off"></div><input type="hidden" name="_mc4wp_timestamp" value="1452116851"><input type="hidden" name="_mc4wp_form_id" value="61"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://deeplearningkit.org/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Search">
+				</div>
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<p class="widget-title">Recent Posts</p>		<ul>
+					<li>
+				<a href="http://deeplearningkit.org/2015/12/28/tutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Tutorial – Using DeepLearningKit with iOS for iPhone and iPad</a>
+						</li>
+					<li>
+				<a href="http://deeplearningkit.org/2015/12/28/deeplearningkit-deep-learning-for-ios-tested-on-iphone-6s-tvos-and-os-x-developed-in-metal-and-swift/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">DeepLearningKit – Deep Learning for iOS (tested on iPhone 6S), tvOS and OS X developed in Metal and Swift</a>
+						</li>
+					<li>
+				<a href="http://deeplearningkit.org/2015/12/28/deeplearningkit-open-source-deep-learning-framework-for-apples-ios-os-x-and-tvos/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">DeepLearningKit – Open Source Deep Learning Framework for Apple’s iOS, OS X and tvOS</a>
+						</li>
+				</ul>
+		</aside>		<aside id="tag_cloud-3" class="widget widget_tag_cloud"><p class="widget-title">Tags</p><div class="tagcloud"><a href="http://deeplearningkit.org/tag/ai/" class="tag-link-12" title="2 topics" style="font-size: 8pt;" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">AI</a>
+<a href="http://deeplearningkit.org/tag/deep-learning/" class="tag-link-8" title="2 topics" style="font-size: 8pt;" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">deep learning</a>
+<a href="http://deeplearningkit.org/tag/ios/" class="tag-link-9" title="2 topics" style="font-size: 8pt;" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">iOS</a>
+<a href="http://deeplearningkit.org/tag/os-x/" class="tag-link-10" title="2 topics" style="font-size: 8pt;" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">OS X</a>
+<a href="http://deeplearningkit.org/tag/tvos/" class="tag-link-11" title="2 topics" style="font-size: 8pt;" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">tvOS</a></div>
+</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><p class="widget-title">Recent Comments</p><ul id="recentcomments"></ul></aside><aside id="archives-2" class="widget widget_archive"><p class="widget-title">Archives</p>		<ul>
+			<li><a href="http://deeplearningkit.org/2015/12/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">December 2015</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><p class="widget-title">Categories</p>		<ul>
+	<li class="cat-item cat-item-3"><a href="http://deeplearningkit.org/category/ai/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">AI</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://deeplearningkit.org/category/deep-learning/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Deep Learning</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://deeplearningkit.org/category/ios/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">iOS</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://deeplearningkit.org/category/os-x/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">OS X</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://deeplearningkit.org/category/tvos/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">tvOS</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><p class="widget-title">Meta</p>			<ul>
+						<li><a href="http://deeplearningkit.org/wp-login.php" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Log in</a></li>
+			<li><a href="http://deeplearningkit.org/feed/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://deeplearningkit.org/comments/feed/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform." data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-async="false">WordPress.org</a></li>			</ul>
+			</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+		<div class="footercopy">Copyright 2015-2016</div>
+		<div class="footercredit"><a href="http://deeplearningkit.org/" data-slimstat-clicked="false" data-slimstat-type="2" data-slimstat-tracking="false" data-slimstat-callback="false" data-slimstat-async="false">DeepLearningKit.org</a></div>
+		<div class="clear"></div>
+		</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+		<div class="site-wordpress">
+				<a href="http://themonic.com/iconic-one/" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-async="false">Iconic One</a> Theme | Powered by <a href="http://wordpress.org/" data-slimstat-clicked="false" data-slimstat-type="0" data-slimstat-tracking="true" data-slimstat-callback="true" data-slimstat-async="false">Wordpress</a>
+				</div><!-- .site-info -->
+				<div class="clear"></div>
+</div><!-- #page -->
+
+
+<!-- This section is created with the SZ-Google for WordPress plugin 1.9.3 -->
+<!-- ===================================================================== -->
+<!-- ===================================================================== -->
+<script type="text/javascript" src="./Tutorial_DeepLearningKit_for_iOS_files/selectnav.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var SlimStatParams = {"ajaxurl":"http:\/\/deeplearningkit.org\/wp-admin\/admin-ajax.php","extensions_to_track":"pdf,doc,xls,zip","outbound_classes_rel_href_to_not_track":"noslimstat,ab-item","ci":"YTozOntzOjEyOiJjb250ZW50X3R5cGUiO3M6NDoicGFnZSI7czoxMDoiY29udGVudF9pZCI7aToxNDtzOjY6ImF1dGhvciI7czoxNToiZGVlcGxlYXJuaW5na2l0Ijt9.cc39f8c5526ccf1f7ae8659299a862f4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tutorial_DeepLearningKit_for_iOS_files/wp-slimstat.min.js"></script>
+<script type="text/javascript" src="./Tutorial_DeepLearningKit_for_iOS_files/wp-embed.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tutorial_DeepLearningKit_for_iOS_files/forms-api.min.js"></script>
+<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}})();</script>
+</body></html>
