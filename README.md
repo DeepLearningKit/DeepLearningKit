@@ -1,14 +1,21 @@
-# [DeepLearningKit.org](http://deeplearningkit.org)
+# [DeepLearningKit](http://deeplearningkit.org)
 
-## Open Source Deep Learning Framework for Apple's tvOS, iOS and OS X
+## Deep Learning Framework for Apple's tvOS, iOS and OS X
 
-### How to get started?
+### 1. How to get started on iOS?
 [Tutorial - Using DeepLearningKit with iOS](http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-using-deeplearningkit-with-ios-for-iphone-and-ipad/)
 
-### Background about DeepLearningKit?
+### 2. Publication about DeepLearningKit?
 [Publication - DeepLearningKit - an Open Source Deep Learning
 Framework for Apple’s iOS, OS X and tvOS
 developed in Metal and Swift](http://deeplearningkit.org/wp-content/uploads/2016/01/DeepLearningKitPaper.pdf)
+
+### 3. Published under which Open Source Licence?
+[Apache 2.0 Licence](https://github.com/DeepLearningKit/DeepLearningKit/blob/master/LICENSE)
+
+### 4. Want to help develop DeepLearningKit with Swift and Metal?
+Check out [deeplearningkit.org/contribute/](http://deeplearningkit.org/contribute/)
+
 
 
 
