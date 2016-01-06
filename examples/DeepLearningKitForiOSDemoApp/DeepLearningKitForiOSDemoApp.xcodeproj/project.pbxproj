@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A73D7D1C1B1259001FD9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D7C1C1B1259001FD9F8 /* AppDelegate.swift */; };
+		67A73D7F1C1B1259001FD9F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D7E1C1B1259001FD9F8 /* ViewController.swift */; };
+		67A73D821C1B1259001FD9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A73D801C1B1259001FD9F8 /* Main.storyboard */; };
+		67A73D851C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D831C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodeld */; };
+		67A73D871C1B1259001FD9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A73D861C1B1259001FD9F8 /* Assets.xcassets */; };
+		67A73D8A1C1B1259001FD9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A73D881C1B1259001FD9F8 /* LaunchScreen.storyboard */; };
+		67A73D951C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D941C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.swift */; };
+		67A73DA01C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D9F1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.swift */; };
+		67A73DB51C1B14F3001FD9F8 /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67A73DB41C1B14F3001FD9F8 /* conv1.json */; };
+		67A73DB71C1B14FD001FD9F8 /* nin_cifar10_full.json in Resources */ = {isa = PBXBuildFile; fileRef = 67A73DB61C1B14FD001FD9F8 /* nin_cifar10_full.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A73D911C1B1259001FD9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A73D711C1B1259001FD9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A73D781C1B1259001FD9F8;
+			remoteInfo = DeepLearningKitForiOSDemoApp;
+		};
+		67A73D9C1C1B1259001FD9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A73D711C1B1259001FD9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A73D781C1B1259001FD9F8;
+			remoteInfo = DeepLearningKitForiOSDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67A73DB01C1B136C001FD9F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67A73D791C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLearningKitForiOSDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A73D7C1C1B1259001FD9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A73D7E1C1B1259001FD9F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A73D811C1B1259001FD9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A73D841C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeepLearningKitForiOSDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		67A73D861C1B1259001FD9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A73D891C1B1259001FD9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A73D8B1C1B1259001FD9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A73D901C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLearningKitForiOSDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A73D941C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLearningKitForiOSDemoAppTests.swift; sourceTree = "<group>"; };
+		67A73D961C1B1259001FD9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A73D9B1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLearningKitForiOSDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A73D9F1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLearningKitForiOSDemoAppUITests.swift; sourceTree = "<group>"; };
+		67A73DA11C1B1259001FD9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A73DB41C1B14F3001FD9F8 /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
+		67A73DB61C1B14FD001FD9F8 /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A73D761C1B1259001FD9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D8D1C1B1259001FD9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D981C1B1259001FD9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A73D701C1B1259001FD9F8 = {
+			isa = PBXGroup;
+			children = (
+				67A73D7B1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */,
+				67A73D931C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests */,
+				67A73D9E1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests */,
+				67A73D7A1C1B1259001FD9F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A73D7A1C1B1259001FD9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A73D791C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.app */,
+				67A73D901C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.xctest */,
+				67A73D9B1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A73D7B1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				67A73DB41C1B14F3001FD9F8 /* conv1.json */,
+				67A73DB61C1B14FD001FD9F8 /* nin_cifar10_full.json */,
+				67A73D7C1C1B1259001FD9F8 /* AppDelegate.swift */,
+				67A73D7E1C1B1259001FD9F8 /* ViewController.swift */,
+				67A73D801C1B1259001FD9F8 /* Main.storyboard */,
+				67A73D861C1B1259001FD9F8 /* Assets.xcassets */,
+				67A73D881C1B1259001FD9F8 /* LaunchScreen.storyboard */,
+				67A73D8B1C1B1259001FD9F8 /* Info.plist */,
+				67A73D831C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodeld */,
+			);
+			path = DeepLearningKitForiOSDemoApp;
+			sourceTree = "<group>";
+		};
+		67A73D931C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A73D941C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.swift */,
+				67A73D961C1B1259001FD9F8 /* Info.plist */,
+			);
+			path = DeepLearningKitForiOSDemoAppTests;
+			sourceTree = "<group>";
+		};
+		67A73D9E1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A73D9F1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.swift */,
+				67A73DA11C1B1259001FD9F8 /* Info.plist */,
+			);
+			path = DeepLearningKitForiOSDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A73D781C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A73DA41C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoApp" */;
+			buildPhases = (
+				67A73D751C1B1259001FD9F8 /* Sources */,
+				67A73D761C1B1259001FD9F8 /* Frameworks */,
+				67A73D771C1B1259001FD9F8 /* Resources */,
+				67A73DB01C1B136C001FD9F8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLearningKitForiOSDemoApp;
+			productName = DeepLearningKitForiOSDemoApp;
+			productReference = 67A73D791C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A73D8F1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A73DA71C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoAppTests" */;
+			buildPhases = (
+				67A73D8C1C1B1259001FD9F8 /* Sources */,
+				67A73D8D1C1B1259001FD9F8 /* Frameworks */,
+				67A73D8E1C1B1259001FD9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A73D921C1B1259001FD9F8 /* PBXTargetDependency */,
+			);
+			name = DeepLearningKitForiOSDemoAppTests;
+			productName = DeepLearningKitForiOSDemoAppTests;
+			productReference = 67A73D901C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A73D9A1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A73DAA1C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoAppUITests" */;
+			buildPhases = (
+				67A73D971C1B1259001FD9F8 /* Sources */,
+				67A73D981C1B1259001FD9F8 /* Frameworks */,
+				67A73D991C1B1259001FD9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A73D9D1C1B1259001FD9F8 /* PBXTargetDependency */,
+			);
+			name = DeepLearningKitForiOSDemoAppUITests;
+			productName = DeepLearningKitForiOSDemoAppUITests;
+			productReference = 67A73D9B1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A73D711C1B1259001FD9F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amund Tveit";
+				TargetAttributes = {
+					67A73D781C1B1259001FD9F8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5L92A5ZTU9;
+					};
+					67A73D8F1C1B1259001FD9F8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 67A73D781C1B1259001FD9F8;
+					};
+					67A73D9A1C1B1259001FD9F8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 67A73D781C1B1259001FD9F8;
+					};
+				};
+			};
+			buildConfigurationList = 67A73D741C1B1259001FD9F8 /* Build configuration list for PBXProject "DeepLearningKitForiOSDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A73D701C1B1259001FD9F8;
+			productRefGroup = 67A73D7A1C1B1259001FD9F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A73D781C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */,
+				67A73D8F1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests */,
+				67A73D9A1C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A73D771C1B1259001FD9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A73D8A1C1B1259001FD9F8 /* LaunchScreen.storyboard in Resources */,
+				67A73DB71C1B14FD001FD9F8 /* nin_cifar10_full.json in Resources */,
+				67A73DB51C1B14F3001FD9F8 /* conv1.json in Resources */,
+				67A73D871C1B1259001FD9F8 /* Assets.xcassets in Resources */,
+				67A73D821C1B1259001FD9F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D8E1C1B1259001FD9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D991C1B1259001FD9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A73D751C1B1259001FD9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A73D851C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodeld in Sources */,
+				67A73D7F1C1B1259001FD9F8 /* ViewController.swift in Sources */,
+				67A73D7D1C1B1259001FD9F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D8C1C1B1259001FD9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A73D951C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A73D971C1B1259001FD9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A73DA01C1B1259001FD9F8 /* DeepLearningKitForiOSDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A73D921C1B1259001FD9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A73D781C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */;
+			targetProxy = 67A73D911C1B1259001FD9F8 /* PBXContainerItemProxy */;
+		};
+		67A73D9D1C1B1259001FD9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A73D781C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp */;
+			targetProxy = 67A73D9C1C1B1259001FD9F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67A73D801C1B1259001FD9F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A73D811C1B1259001FD9F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A73D881C1B1259001FD9F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A73D891C1B1259001FD9F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A73DA21C1B1259001FD9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A73DA31C1B1259001FD9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A73DA51C1B1259001FD9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		67A73DA61C1B1259001FD9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		67A73DA81C1B1259001FD9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLearningKitForiOSDemoApp.app/DeepLearningKitForiOSDemoApp";
+			};
+			name = Debug;
+		};
+		67A73DA91C1B1259001FD9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLearningKitForiOSDemoApp.app/DeepLearningKitForiOSDemoApp";
+			};
+			name = Release;
+		};
+		67A73DAB1C1B1259001FD9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepLearningKitForiOSDemoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		67A73DAC1C1B1259001FD9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLearningKitForiOSDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.DeepLearningKitForiOSDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepLearningKitForiOSDemoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A73D741C1B1259001FD9F8 /* Build configuration list for PBXProject "DeepLearningKitForiOSDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A73DA21C1B1259001FD9F8 /* Debug */,
+				67A73DA31C1B1259001FD9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A73DA41C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A73DA51C1B1259001FD9F8 /* Debug */,
+				67A73DA61C1B1259001FD9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A73DA71C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A73DA81C1B1259001FD9F8 /* Debug */,
+				67A73DA91C1B1259001FD9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A73DAA1C1B1259001FD9F8 /* Build configuration list for PBXNativeTarget "DeepLearningKitForiOSDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A73DAB1C1B1259001FD9F8 /* Debug */,
+				67A73DAC1C1B1259001FD9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67A73D831C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67A73D841C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodel */,
+			);
+			currentVersion = 67A73D841C1B1259001FD9F8 /* DeepLearningKitForiOSDemoApp.xcdatamodel */;
+			path = DeepLearningKitForiOSDemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67A73D711C1B1259001FD9F8 /* Project object */;
+}
