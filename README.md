@@ -2,10 +2,15 @@
 
 ## Deep Learning Framework for Apple's tvOS, iOS and OS X
 
-### 1. How to get started on iOS? (Video tutorial)
+### 1. DeepLearningKit Video Tutorials
+
+#### 1.1 How to Get Started with Deep Learning Kit for iOS 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=i5FxMbcKFiw" target="_blank"><img src="http://img.youtube.com/vi/i5FxMbcKFiw/0.jpg" 
 alt="DeepLearningKit iOS Video Tutorial" width="560" height="315" border="10" /></a>
 
+#### 1.2 How to Get Started with Deep Learning Kit for OS X 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=fBAKLGYtK2o" target="_blank"><img src="http://img.youtube.com/vi/i5FxMbcKFiw/0.jpg" 
+alt="DeepLearningKit iOS Video Tutorial" width="560" height="315" border="10" /></a>
 
 ### 2. Publication about DeepLearningKit?
 [Publication - DeepLearningKit - an Open Source Deep Learning
