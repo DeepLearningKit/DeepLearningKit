@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0A93641C724D9A00D73DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A93631C724D9A00D73DEB /* AppDelegate.swift */; };
+		6B0A93661C724D9A00D73DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A93651C724D9A00D73DEB /* ViewController.swift */; };
+		6B0A93681C724D9A00D73DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0A93671C724D9A00D73DEB /* Assets.xcassets */; };
+		6B0A936B1C724D9A00D73DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0A93691C724D9A00D73DEB /* Main.storyboard */; };
+		6B0A93751C724DD200D73DEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A93731C724DD200D73DEB /* QuartzCore.framework */; };
+		6B0A93771C724DD800D73DEB /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A93761C724DD800D73DEB /* Metal.framework */; };
+		6B64DA231C724EE60048FD13 /* ConvolutionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA171C724EE60048FD13 /* ConvolutionLayer.swift */; };
+		6B64DA241C724EE60048FD13 /* DeepNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA181C724EE60048FD13 /* DeepNetwork.swift */; };
+		6B64DA251C724EE60048FD13 /* DeepNetwork+Classify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA191C724EE60048FD13 /* DeepNetwork+Classify.swift */; };
+		6B64DA261C724EE60048FD13 /* DeepNetwork+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA1A1C724EE60048FD13 /* DeepNetwork+JSON.swift */; };
+		6B64DA271C724EE60048FD13 /* DeepNetwork+SetupNetworkFromDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA1B1C724EE60048FD13 /* DeepNetwork+SetupNetworkFromDict.swift */; };
+		6B64DA281C724EE60048FD13 /* MetalDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA1C1C724EE60048FD13 /* MetalDataStructures.swift */; };
+		6B64DA291C724EE60048FD13 /* MetalUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA1D1C724EE60048FD13 /* MetalUtilityFunctions.swift */; };
+		6B64DA2A1C724EE60048FD13 /* nin_cifar10_full.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B64DA1E1C724EE60048FD13 /* nin_cifar10_full.json */; };
+		6B64DA2C1C724EE60048FD13 /* PoolingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA201C724EE60048FD13 /* PoolingLayer.swift */; };
+		6B64DA2D1C724EE60048FD13 /* RectifierLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA211C724EE60048FD13 /* RectifierLayer.swift */; };
+		6B64DA2E1C724EE60048FD13 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6B64DA221C724EE60048FD13 /* Shaders.metal */; };
+		6B64DA301C724F020048FD13 /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B64DA2F1C724F020048FD13 /* conv1.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B0A93601C724D9A00D73DEB /* OSXDeepLearningKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXDeepLearningKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0A93631C724D9A00D73DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B0A93651C724D9A00D73DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B0A93671C724D9A00D73DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B0A936A1C724D9A00D73DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B0A936C1C724D9A00D73DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0A93731C724DD200D73DEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6B0A93761C724DD800D73DEB /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		6B64DA171C724EE60048FD13 /* ConvolutionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvolutionLayer.swift; sourceTree = "<group>"; };
+		6B64DA181C724EE60048FD13 /* DeepNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepNetwork.swift; sourceTree = "<group>"; };
+		6B64DA191C724EE60048FD13 /* DeepNetwork+Classify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+Classify.swift"; sourceTree = "<group>"; };
+		6B64DA1A1C724EE60048FD13 /* DeepNetwork+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+JSON.swift"; sourceTree = "<group>"; };
+		6B64DA1B1C724EE60048FD13 /* DeepNetwork+SetupNetworkFromDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+SetupNetworkFromDict.swift"; sourceTree = "<group>"; };
+		6B64DA1C1C724EE60048FD13 /* MetalDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalDataStructures.swift; sourceTree = "<group>"; };
+		6B64DA1D1C724EE60048FD13 /* MetalUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalUtilityFunctions.swift; sourceTree = "<group>"; };
+		6B64DA1E1C724EE60048FD13 /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
+		6B64DA201C724EE60048FD13 /* PoolingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolingLayer.swift; sourceTree = "<group>"; };
+		6B64DA211C724EE60048FD13 /* RectifierLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectifierLayer.swift; sourceTree = "<group>"; };
+		6B64DA221C724EE60048FD13 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		6B64DA2F1C724F020048FD13 /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0A935D1C724D9A00D73DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0A93771C724DD800D73DEB /* Metal.framework in Frameworks */,
+				6B0A93751C724DD200D73DEB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0A93571C724D9A00D73DEB = {
+			isa = PBXGroup;
+			children = (
+				6B0A93761C724DD800D73DEB /* Metal.framework */,
+				6B0A93731C724DD200D73DEB /* QuartzCore.framework */,
+				6B0A93621C724D9A00D73DEB /* OSXDeepLearningKitApp */,
+				6B0A93611C724D9A00D73DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0A93611C724D9A00D73DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0A93601C724D9A00D73DEB /* OSXDeepLearningKitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0A93621C724D9A00D73DEB /* OSXDeepLearningKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				6B0A93631C724D9A00D73DEB /* AppDelegate.swift */,
+				6B0A93651C724D9A00D73DEB /* ViewController.swift */,
+				6B0A93671C724D9A00D73DEB /* Assets.xcassets */,
+				6B0A93691C724D9A00D73DEB /* Main.storyboard */,
+				6B0A936C1C724D9A00D73DEB /* Info.plist */,
+				6B64DA171C724EE60048FD13 /* ConvolutionLayer.swift */,
+				6B64DA181C724EE60048FD13 /* DeepNetwork.swift */,
+				6B64DA191C724EE60048FD13 /* DeepNetwork+Classify.swift */,
+				6B64DA1A1C724EE60048FD13 /* DeepNetwork+JSON.swift */,
+				6B64DA1B1C724EE60048FD13 /* DeepNetwork+SetupNetworkFromDict.swift */,
+				6B64DA1C1C724EE60048FD13 /* MetalDataStructures.swift */,
+				6B64DA1D1C724EE60048FD13 /* MetalUtilityFunctions.swift */,
+				6B64DA2F1C724F020048FD13 /* conv1.json */,
+				6B64DA1E1C724EE60048FD13 /* nin_cifar10_full.json */,
+				6B64DA201C724EE60048FD13 /* PoolingLayer.swift */,
+				6B64DA211C724EE60048FD13 /* RectifierLayer.swift */,
+				6B64DA221C724EE60048FD13 /* Shaders.metal */,
+			);
+			path = OSXDeepLearningKitApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0A935F1C724D9A00D73DEB /* OSXDeepLearningKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0A936F1C724D9A00D73DEB /* Build configuration list for PBXNativeTarget "OSXDeepLearningKitApp" */;
+			buildPhases = (
+				6B0A935C1C724D9A00D73DEB /* Sources */,
+				6B0A935D1C724D9A00D73DEB /* Frameworks */,
+				6B0A935E1C724D9A00D73DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXDeepLearningKitApp;
+			productName = OSXDeepLearningKitApp;
+			productReference = 6B0A93601C724D9A00D73DEB /* OSXDeepLearningKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0A93581C724D9A00D73DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DeepLearningKit;
+				TargetAttributes = {
+					6B0A935F1C724D9A00D73DEB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PVJ976FS8J;
+					};
+				};
+			};
+			buildConfigurationList = 6B0A935B1C724D9A00D73DEB /* Build configuration list for PBXProject "OSXDeepLearningKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0A93571C724D9A00D73DEB;
+			productRefGroup = 6B0A93611C724D9A00D73DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0A935F1C724D9A00D73DEB /* OSXDeepLearningKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0A935E1C724D9A00D73DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0A93681C724D9A00D73DEB /* Assets.xcassets in Resources */,
+				6B0A936B1C724D9A00D73DEB /* Main.storyboard in Resources */,
+				6B64DA2A1C724EE60048FD13 /* nin_cifar10_full.json in Resources */,
+				6B64DA301C724F020048FD13 /* conv1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0A935C1C724D9A00D73DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B64DA2E1C724EE60048FD13 /* Shaders.metal in Sources */,
+				6B64DA271C724EE60048FD13 /* DeepNetwork+SetupNetworkFromDict.swift in Sources */,
+				6B64DA251C724EE60048FD13 /* DeepNetwork+Classify.swift in Sources */,
+				6B64DA241C724EE60048FD13 /* DeepNetwork.swift in Sources */,
+				6B0A93661C724D9A00D73DEB /* ViewController.swift in Sources */,
+				6B64DA2D1C724EE60048FD13 /* RectifierLayer.swift in Sources */,
+				6B0A93641C724D9A00D73DEB /* AppDelegate.swift in Sources */,
+				6B64DA281C724EE60048FD13 /* MetalDataStructures.swift in Sources */,
+				6B64DA261C724EE60048FD13 /* DeepNetwork+JSON.swift in Sources */,
+				6B64DA291C724EE60048FD13 /* MetalUtilityFunctions.swift in Sources */,
+				6B64DA2C1C724EE60048FD13 /* PoolingLayer.swift in Sources */,
+				6B64DA231C724EE60048FD13 /* ConvolutionLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B0A93691C724D9A00D73DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0A936A1C724D9A00D73DEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B0A936D1C724D9A00D73DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B0A936E1C724D9A00D73DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B0A93701C724D9A00D73DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXDeepLearningKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.OSXDeepLearningKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B0A93711C724D9A00D73DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSXDeepLearningKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.OSXDeepLearningKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0A935B1C724D9A00D73DEB /* Build configuration list for PBXProject "OSXDeepLearningKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0A936D1C724D9A00D73DEB /* Debug */,
+				6B0A936E1C724D9A00D73DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0A936F1C724D9A00D73DEB /* Build configuration list for PBXNativeTarget "OSXDeepLearningKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0A93701C724D9A00D73DEB /* Debug */,
+				6B0A93711C724D9A00D73DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B0A93581C724D9A00D73DEB /* Project object */;
+}
