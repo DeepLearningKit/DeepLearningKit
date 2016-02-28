@@ -28,6 +28,7 @@
 		67B14E5B1C6FED2D00FCB69C /* pool1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5A1C6FED2D00FCB69C /* pool1.json */; };
 		67B14E5D1C6FED8A00FCB69C /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5C1C6FED8A00FCB69C /* conv1.json */; };
 		6B57D62F1C82E16F0082387B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D62E1C82E16F0082387B /* UIImageExtension.swift */; };
+		6B57D6391C831ED60082387B /* ImageUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D6381C831ED60082387B /* ImageUtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		67B14E5A1C6FED2D00FCB69C /* pool1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pool1.json; sourceTree = "<group>"; };
 		67B14E5C1C6FED8A00FCB69C /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
 		6B57D62E1C82E16F0082387B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		6B57D6381C831ED60082387B /* ImageUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtilityFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				67B14E541C6FED0D00FCB69C /* PoolingLayer.swift */,
 				67B14E561C6FED1200FCB69C /* RectifierLayer.swift */,
 				67B14E3A1C6FE91400FCB69C /* Info.plist */,
+				6B57D6381C831ED60082387B /* ImageUtilityFunctions.swift */,
 			);
 			path = iOSDeepLearningKitApp;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B57D6391C831ED60082387B /* ImageUtilityFunctions.swift in Sources */,
 				67B14E451C6FEC9400FCB69C /* Shaders.metal in Sources */,
 				67B14E471C6FECA400FCB69C /* MetalDataStructures.swift in Sources */,
 				67B14E4D1C6FECDE00FCB69C /* DeepNetwork+Classify.swift in Sources */,
