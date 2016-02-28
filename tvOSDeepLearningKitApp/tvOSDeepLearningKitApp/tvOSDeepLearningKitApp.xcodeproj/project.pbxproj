@@ -26,6 +26,7 @@
 		6B2942FF1C73CEBB0002721C /* DeepNetwork+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942F91C73CEBB0002721C /* DeepNetwork+JSON.swift */; };
 		6B2943001C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942FA1C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift */; };
 		6B57D6321C82E6610082387B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D6311C82E6610082387B /* UIImageExtension.swift */; };
+		6B57D63B1C8321980082387B /* ImageUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		6B2942F91C73CEBB0002721C /* DeepNetwork+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+JSON.swift"; sourceTree = "<group>"; };
 		6B2942FA1C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+SetupNetworkFromDict.swift"; sourceTree = "<group>"; };
 		6B57D6311C82E6610082387B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtilityFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				6B2942EE1C73CEB20002721C /* Shaders.metal */,
 				6B2942DD1C73CCF80002721C /* Assets.xcassets */,
 				6B2942DF1C73CCF80002721C /* Info.plist */,
+				6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */,
 			);
 			path = tvOSDeepLearningKitApp;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B57D63B1C8321980082387B /* ImageUtilityFunctions.swift in Sources */,
 				6B2942FE1C73CEBB0002721C /* DeepNetwork+Classify.swift in Sources */,
 				6B2942EF1C73CEB20002721C /* MetalDataStructures.swift in Sources */,
 				6B2942F41C73CEB20002721C /* Shaders.metal in Sources */,
