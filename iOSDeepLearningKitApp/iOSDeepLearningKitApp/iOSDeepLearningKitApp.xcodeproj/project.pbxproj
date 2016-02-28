@@ -27,6 +27,7 @@
 		67B14E591C6FED2800FCB69C /* nin_cifar10_full.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E581C6FED2800FCB69C /* nin_cifar10_full.json */; };
 		67B14E5B1C6FED2D00FCB69C /* pool1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5A1C6FED2D00FCB69C /* pool1.json */; };
 		67B14E5D1C6FED8A00FCB69C /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5C1C6FED8A00FCB69C /* conv1.json */; };
+		6B57D62F1C82E16F0082387B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D62E1C82E16F0082387B /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		67B14E581C6FED2800FCB69C /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
 		67B14E5A1C6FED2D00FCB69C /* pool1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pool1.json; sourceTree = "<group>"; };
 		67B14E5C1C6FED8A00FCB69C /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
+		6B57D62E1C82E16F0082387B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		67B14E2D1C6FE91400FCB69C /* iOSDeepLearningKitApp */ = {
 			isa = PBXGroup;
 			children = (
+				6B57D62D1C82E1460082387B /* ThirdParty */,
 				67B14E2E1C6FE91400FCB69C /* AppDelegate.swift */,
 				67B14E301C6FE91400FCB69C /* ViewController.swift */,
 				67B14E321C6FE91400FCB69C /* Main.storyboard */,
@@ -109,6 +112,14 @@
 				67B14E3A1C6FE91400FCB69C /* Info.plist */,
 			);
 			path = iOSDeepLearningKitApp;
+			sourceTree = "<group>";
+		};
+		6B57D62D1C82E1460082387B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6B57D62E1C82E16F0082387B /* UIImageExtension.swift */,
+			);
+			name = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				67B14E2F1C6FE91400FCB69C /* AppDelegate.swift in Sources */,
 				67B14E4F1C6FECE500FCB69C /* DeepNetwork+JSON.swift in Sources */,
 				67B14E531C6FED0300FCB69C /* ConvolutionLayer.swift in Sources */,
+				6B57D62F1C82E16F0082387B /* UIImageExtension.swift in Sources */,
 				67B14E571C6FED1200FCB69C /* RectifierLayer.swift in Sources */,
 				67B14E551C6FED0D00FCB69C /* PoolingLayer.swift in Sources */,
 				67B14E491C6FECAD00FCB69C /* MetalUtilityFunctions.swift in Sources */,
@@ -347,6 +359,7 @@
 				67B14E3F1C6FE91400FCB69C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
