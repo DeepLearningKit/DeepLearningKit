@@ -4,13 +4,20 @@
 
 ### 1. DeepLearningKit Video Tutorials
 
-#### 1.1 How to Get Started with Deep Learning Kit for iOS 
+#### 1.1 How to Get Started with Deep Learning Kit for iOS (e.g. iPhone or iPad)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=i5FxMbcKFiw" target="_blank"><img src="http://img.youtube.com/vi/i5FxMbcKFiw/0.jpg" 
 alt="DeepLearningKit iOS Video Tutorial" width="560" height="315" border="10" /></a>
 
-#### 1.2 How to Get Started with Deep Learning Kit for OS X 
+#### 1.2 How to Get Started with Deep Learning Kit for OS X (e.g. Macbook or iMac)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=fBAKLGYtK2o" target="_blank"><img src="http://img.youtube.com/vi/i5FxMbcKFiw/0.jpg" 
 alt="DeepLearningKit iOS Video Tutorial" width="560" height="315" border="10" /></a>
+
+#### 1.3 How to Get Started with Deep Learning Kit for tvOS (new Apple TV) 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2UZeVO1QvLI" target="_blank"><img src="http://img.youtube.com/vi/i5FxMbcKFiw/0.jpg" 
+alt="DeepLearningKit iOS Video Tutorial" width="560" height="315" border="10" /></a>
+
+#### 1.4 Tutorial - Image Handling in DeepLearningKit
+<a href="http://deeplearningkit.org/tutorials-for-ios-os-x-and-tvos/tutorial-image-handling-in-deeplearningkit/">[Link to Tutorial - Image Handling in DeepLearningKit]</a>
 
 ### 2. Publication about DeepLearningKit?
 [Publication - DeepLearningKit - an Open Source Deep Learning
