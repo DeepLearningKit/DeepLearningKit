@@ -25,6 +25,7 @@
 		6B2942FE1C73CEBB0002721C /* DeepNetwork+Classify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942F81C73CEBB0002721C /* DeepNetwork+Classify.swift */; };
 		6B2942FF1C73CEBB0002721C /* DeepNetwork+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942F91C73CEBB0002721C /* DeepNetwork+JSON.swift */; };
 		6B2943001C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942FA1C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift */; };
+		6B57D6321C82E6610082387B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D6311C82E6610082387B /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		6B2942F81C73CEBB0002721C /* DeepNetwork+Classify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+Classify.swift"; sourceTree = "<group>"; };
 		6B2942F91C73CEBB0002721C /* DeepNetwork+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+JSON.swift"; sourceTree = "<group>"; };
 		6B2942FA1C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+SetupNetworkFromDict.swift"; sourceTree = "<group>"; };
+		6B57D6311C82E6610082387B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		6B2942D51C73CCF80002721C /* tvOSDeepLearningKitApp */ = {
 			isa = PBXGroup;
 			children = (
+				6B57D6301C82E6290082387B /* ThirdParty */,
 				6B2942D61C73CCF80002721C /* AppDelegate.swift */,
 				6B2942D81C73CCF80002721C /* ViewController.swift */,
 				6B2942F51C73CEBB0002721C /* conv1.json */,
@@ -103,6 +106,14 @@
 				6B2942DF1C73CCF80002721C /* Info.plist */,
 			);
 			path = tvOSDeepLearningKitApp;
+			sourceTree = "<group>";
+		};
+		6B57D6301C82E6290082387B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6B57D6311C82E6610082387B /* UIImageExtension.swift */,
+			);
+			name = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				6B2942F31C73CEB20002721C /* RectifierLayer.swift in Sources */,
 				6B2943001C73CEBB0002721C /* DeepNetwork+SetupNetworkFromDict.swift in Sources */,
 				6B2942FD1C73CEBB0002721C /* DeepNetwork.swift in Sources */,
+				6B57D6321C82E6610082387B /* UIImageExtension.swift in Sources */,
 				6B2942F21C73CEB20002721C /* PoolingLayer.swift in Sources */,
 				6B2942FC1C73CEBB0002721C /* ConvolutionLayer.swift in Sources */,
 				6B2942D71C73CCF80002721C /* AppDelegate.swift in Sources */,
@@ -330,6 +342,7 @@
 				6B2942E41C73CCF80002721C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
