@@ -41,8 +41,9 @@ func imageToMatrix(image: UIImage) -> ([Float], [Float], [Float], [Float])
     var step: Float = 4.0
     vDSP_vramp(&min, &step, &i, vDSP_Stride(1), vDSP_Length(i.count))
     
-    func increaseMatrix(var matrix: [Float]) -> [Float]
+    func increaseMatrix(matrix: [Float]) -> [Float]
     {
+        var matrix = matrix
         var increaser: Float = 1.0
         vDSP_vsadd(&matrix, vDSP_Stride(1), &increaser, &matrix, vDSP_Stride(1), vDSP_Length(i.count))
         

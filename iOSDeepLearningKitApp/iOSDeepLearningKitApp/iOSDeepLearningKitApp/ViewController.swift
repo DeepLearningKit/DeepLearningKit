@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         let imageShape:[Float] = [1.0, 3.0, 32.0, 32.0]
         
-        var caching_mode = false
+        let caching_mode = false
         
         // 0. load network in network model
         deepNetwork.loadDeepNetworkFromJSON("nin_cifar10_full", inputImage: image, inputShape: imageShape, caching_mode:caching_mode)
@@ -64,8 +64,8 @@ class ViewController: UIViewController {
     
     //***********************************************************************************
     
-    func showCIFARImage(var cifarImageData:[Float]) {
-
+    func showCIFARImage(cifarImageData:[Float]) {
+        var cifarImageData = cifarImageData
         let size = CGSize(width: 32, height: 32)
         let rect = CGRect(origin: CGPoint(x: 0,y: 0), size: size)
         
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
                 image = image.setPixelColorAtPoint(CGPoint(x: j,y: i), color: UIImage.RawColorType(r,g,b,255))!
                 
                 // used to read pixels - RGBA from an UIImage
-                var color = image.getPixelColorAtLocation(CGPoint(x:i, y:j))
+                _ = image.getPixelColorAtLocation(CGPoint(x:i, y:j))
             }
         }
         print(image.size)

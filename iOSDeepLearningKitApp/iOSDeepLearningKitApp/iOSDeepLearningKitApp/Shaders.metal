@@ -160,7 +160,7 @@ kernel void im2col(const device float* convolution_input [[ buffer(0)]],
                    const device MetalConvolutionParameters* convolution_params [[ buffer(2) ]],
                    device float* col_output [[ buffer(3) ]],
                    uint id [[ thread_position_in_grid ]]) {
-    int num = int(tensor_dimensions[0].n);
+    //int num = int(tensor_dimensions[0].n);
     int channels_in = int(tensor_dimensions[0].channels);
     int in_width = int(tensor_dimensions[0].width);
     int in_height = int(tensor_dimensions[0].height);

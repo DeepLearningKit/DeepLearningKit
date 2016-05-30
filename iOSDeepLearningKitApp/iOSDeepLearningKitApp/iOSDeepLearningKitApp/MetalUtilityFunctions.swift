@@ -18,39 +18,46 @@ func createFloatNumbersArray(count: Int) -> [Float] {
     return [Float](count: count, repeatedValue: 0.0)
 }
 
-func createFloatMetalBuffer(var vector: [Float], let metalDevice:MTLDevice) -> MTLBuffer {
+func createFloatMetalBuffer(vector: [Float], let metalDevice:MTLDevice) -> MTLBuffer {
+    var vector = vector
     let byteLength = vector.count*sizeof(Float) // future: MTLResourceStorageModePrivate
     return metalDevice.newBufferWithBytes(&vector, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
 
 // TODO: could perhaps use generics to combine both functions below?
-func createComplexMetalBuffer(var vector:[MetalComplexNumberType], let metalDevice:MTLDevice) -> MTLBuffer {
+func createComplexMetalBuffer(vector:[MetalComplexNumberType], let metalDevice:MTLDevice) -> MTLBuffer {
+    var vector = vector
     let byteLength = vector.count*sizeof(MetalComplexNumberType) // or size of and actual 1st element object?
     return metalDevice.newBufferWithBytes(&vector, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
 
-func createShaderParametersMetalBuffer(var shaderParameters:MetalShaderParameters,  metalDevice:MTLDevice) -> MTLBuffer {
+func createShaderParametersMetalBuffer(shaderParameters:MetalShaderParameters,  metalDevice:MTLDevice) -> MTLBuffer {
+    var shaderParameters = shaderParameters
     let byteLength = sizeof(MetalShaderParameters)
     return metalDevice.newBufferWithBytes(&shaderParameters, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
 
-func createMatrixShaderParametersMetalBuffer(var params: MetalMatrixVectorParameters,  metalDevice: MTLDevice) -> MTLBuffer {
+func createMatrixShaderParametersMetalBuffer(params: MetalMatrixVectorParameters,  metalDevice: MTLDevice) -> MTLBuffer {
+    var params = params
     let byteLength = sizeof(MetalMatrixVectorParameters)
     return metalDevice.newBufferWithBytes(&params, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
     
 }
 
-func createPoolingParametersMetalBuffer(var params: MetalPoolingParameters, metalDevice: MTLDevice) -> MTLBuffer {
+func createPoolingParametersMetalBuffer(params: MetalPoolingParameters, metalDevice: MTLDevice) -> MTLBuffer {
+    var params = params
     let byteLength = sizeof(MetalPoolingParameters)
     return metalDevice.newBufferWithBytes(&params, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
 
-func createConvolutionParametersMetalBuffer(var params: MetalConvolutionParameters, metalDevice: MTLDevice) -> MTLBuffer {
+func createConvolutionParametersMetalBuffer(params: MetalConvolutionParameters, metalDevice: MTLDevice) -> MTLBuffer {
+    var params = params
     let byteLength = sizeof(MetalConvolutionParameters)
     return metalDevice.newBufferWithBytes(&params, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
 
-func createTensorDimensionsVectorMetalBuffer(var vector: [MetalTensorDimensions], metalDevice: MTLDevice) -> MTLBuffer {
+func createTensorDimensionsVectorMetalBuffer(vector: [MetalTensorDimensions], metalDevice: MTLDevice) -> MTLBuffer {
+    var vector = vector
     let byteLength = vector.count * sizeof(MetalTensorDimensions)
     return metalDevice.newBufferWithBytes(&vector, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
@@ -58,12 +65,12 @@ func createTensorDimensionsVectorMetalBuffer(var vector: [MetalTensorDimensions]
 func setupShaderInMetalPipeline(shaderName:String, metalDefaultLibrary:MTLLibrary, metalDevice:MTLDevice) -> (shader:MTLFunction!,
     computePipelineState:MTLComputePipelineState!,
     computePipelineErrors:NSErrorPointer!)  {
-        var shader = metalDefaultLibrary.newFunctionWithName(shaderName)
-        var computePipeLineDescriptor = MTLComputePipelineDescriptor()
+        let shader = metalDefaultLibrary.newFunctionWithName(shaderName)
+        let computePipeLineDescriptor = MTLComputePipelineDescriptor()
         computePipeLineDescriptor.computeFunction = shader
         //        var computePipelineErrors = NSErrorPointer()
         //            let computePipelineState:MTLComputePipelineState = metalDevice.newComputePipelineStateWithFunction(shader!, completionHandler: {(})
-        var computePipelineErrors = NSErrorPointer()
+        let computePipelineErrors:NSErrorPointer = nil
         var computePipelineState:MTLComputePipelineState? = nil
         do {
             computePipelineState = try metalDevice.newComputePipelineStateWithFunction(shader!)
@@ -74,7 +81,8 @@ func setupShaderInMetalPipeline(shaderName:String, metalDefaultLibrary:MTLLibrar
         
 }
 
-func createMetalBuffer(var vector:[Float], metalDevice:MTLDevice) -> MTLBuffer {
+func createMetalBuffer(vector:[Float], metalDevice:MTLDevice) -> MTLBuffer {
+    var vector = vector
     let byteLength = vector.count*sizeof(Float)
     return metalDevice.newBufferWithBytes(&vector, length: byteLength, options: MTLResourceOptions.CPUCacheModeDefaultCache)
 }
