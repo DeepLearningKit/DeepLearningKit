@@ -33,7 +33,7 @@ func createConvolutionLayerCached(layer: NSDictionary,
     layer_number: Int,
     layer_string: String, caching_mode:Bool) -> (MTLBuffer, MTLCommandBuffer, [Float]) {
         
-        let start = NSDate()
+        _ = NSDate()
         
         
 //        let metalCommandBuffer = metalCommandQueue.commandBuffer()
@@ -74,7 +74,7 @@ func createConvolutionLayerCached(layer: NSDictionary,
                 kernel_size = val
             }
             
-            let startblob = NSDate()
+            _ = NSDate()
 
             
             if let tmpval = blob_cache[layer_number]["0"] {
@@ -133,7 +133,7 @@ func addConvolutionCommandToCommandBufferCached(commandBuffer: MTLCommandBuffer,
     layer_number: Int,
     layer_string: String, caching_mode:Bool) -> MTLBuffer {
         
-        let start = NSDate()
+        _ = NSDate()
         
         print("before output and col_output")
         

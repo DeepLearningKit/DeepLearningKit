@@ -12,7 +12,8 @@ import Metal
 public extension DeepNetwork {
     // e.g. 32x32x3 for CIFAR-10/100
     // as [1.0, 3.0, 32.0, 32.0]
-    public func classify(var flattenedTensorWithImage: [Float]) -> Float {
+    public func classify(flattenedTensorWithImage: [Float]) -> Float {
+        //let flattenedTensorWithImage = flattenedTensorWithImage
         let start = NSDate()
         
         // from 2.2 in http://memkite.com/blog/2014/12/30/example-of-sharing-memory-between-gpu-and-cpu-with-swift-and-metal-for-ios8/

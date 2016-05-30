@@ -33,7 +33,7 @@ class ViewController: NSViewController {
         
         let imageShape:[Float] = [1.0, 3.0, 32.0, 32.0]
         
-        var caching_mode = false
+        let caching_mode = false
         
         // 0. load network in network model
         deepNetwork.loadDeepNetworkFromJSON("nin_cifar10_full", inputImage: image, inputShape: imageShape, caching_mode:caching_mode)

@@ -109,7 +109,7 @@ func addPoolingCommandToCommandBufferCached(commandBuffer: MTLCommandBuffer,
         
         print(" ==> addPoolingCommandtoCommandBufferCached")
         
-        var layer_data_cache = layer_data_caches[layer_number]
+        _ = layer_data_caches[layer_number]
         
         let output = createFloatNumbersArray(outputCount)
         let (_, computePipelineState, _) = setupShaderInMetalPipeline(poolingMethod, metalDefaultLibrary: metalDefaultLibrary, metalDevice: metalDevice)

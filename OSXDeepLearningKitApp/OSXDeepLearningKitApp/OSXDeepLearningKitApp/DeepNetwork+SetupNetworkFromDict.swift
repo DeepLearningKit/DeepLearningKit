@@ -22,7 +22,7 @@ public extension DeepNetwork {
         pool_type_caches.append(Dictionary<String,String>())
         blob_cache.append(Dictionary<String,([Float],[Float])>())
         namedDataLayers.append(("input", inputimage))
-        ++layer_number
+        layer_number += 1
         
         
         // Add remaining network
@@ -65,7 +65,7 @@ public extension DeepNetwork {
                 let name = layer["name"] as! String
                 print("\(name): \(NSDate().timeIntervalSinceDate(t))")
                 t = NSDate()
-                ++layer_number
+                layer_number += 1
                 
             }
         }
