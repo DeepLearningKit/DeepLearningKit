@@ -2,6 +2,16 @@
 
 ## Deep Learning Framework for Apple's tvOS, iOS and OS X
 
+### 0. DeepLearningKit Publication
+```
+@misc{2015DeepLearningKit,
+    author = {Amund Tveit , Torbjørn Morland and Thomas Brox Røst},
+    title = {DeepLearningKit - an Open Source Deep Learning Framework for Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
+    url = {<a href="https://arxiv.org/trackback/1605.04614">https://arxiv.org/abs/1605.04614</a>},
+    howpublished = {Online}
+}
+```
+
 ### 1. DeepLearningKit Video Tutorials
 
 #### 1.1 How to Get Started with Deep Learning Kit for iOS (e.g. iPhone or iPad)
@@ -36,9 +46,9 @@ Check out [deeplearningkit.org/contribute/](http://deeplearningkit.org/contribut
 ### 6. Citing DeepLearningKit?
 ```
 @misc{2015DeepLearningKit,
-    author = {Amund Tveit, Torbjørn Morland and Thomas Brox Røst},
+    author = {Amund Tveit , Torbjørn Morland and Thomas Brox Røst},
     title = {DeepLearningKit - an Open Source Deep Learning Framework for Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
-    url = {http://deeplearningkit.org/wp-content/uploads/2016/01/DeepLearningKitPaper.pdf},
+    url = {<a href="https://arxiv.org/trackback/1605.04614">https://arxiv.org/abs/1605.04614</a>},
     howpublished = {Online}
 }
 ```
