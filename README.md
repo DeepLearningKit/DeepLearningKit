@@ -8,7 +8,7 @@
     author = {<a href="https://deeplearning.education">Amund Tveit</a>, Torbjørn Morland and Thomas Brox Røst},
     title = {DeepLearningKit - an Open Source Deep Learning Framework for 
              Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
-    url = {<a href="https://arxiv.org/trackback/1605.04614">https://arxiv.org/abs/1605.04614</a>},
+    url = {<a href="https://arxiv.org/abs/1605.04614">https://arxiv.org/abs/1605.04614</a>},
     howpublished = {Online}
 }
 </pre>
@@ -50,7 +50,7 @@ Check out [deeplearningkit.org/contribute/](http://deeplearningkit.org/contribut
     author = {<a href="https://deeplearning.education">Amund Tveit</a>, Torbjørn Morland and Thomas Brox Røst},
     title = {DeepLearningKit - an Open Source Deep Learning Framework for 
              Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
-    url = {<a href="https://arxiv.org/trackback/1605.04614">https://arxiv.org/abs/1605.04614</a>},
+    url = {<a href="https://arxiv.org/abs/1605.04614">https://arxiv.org/abs/1605.04614</a>},
     howpublished = {Online}
 }
 </pre>
