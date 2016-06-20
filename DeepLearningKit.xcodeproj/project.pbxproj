@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53AC8A381D17AC2000778BB5 /* DeepLearningKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 53AC8A371D17AC2000778BB5 /* DeepLearningKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AC8A3F1D17AC2000778BB5 /* DeepLearningKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AC8A341D17AC2000778BB5 /* DeepLearningKit.framework */; };
+		53AC8A441D17AC2000778BB5 /* DeepLearningKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A431D17AC2000778BB5 /* DeepLearningKitTests.swift */; };
+		53AC8A571D17AD3500778BB5 /* ConvolutionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A4E1D17AD3500778BB5 /* ConvolutionLayer.swift */; };
+		53AC8A581D17AD3500778BB5 /* DeepNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A4F1D17AD3500778BB5 /* DeepNetwork.swift */; };
+		53AC8A591D17AD3500778BB5 /* DeepNetwork+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A501D17AD3500778BB5 /* DeepNetwork+JSON.swift */; };
+		53AC8A5A1D17AD3500778BB5 /* DeepNetwork+SetupNetworkFromDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A511D17AD3500778BB5 /* DeepNetwork+SetupNetworkFromDict.swift */; };
+		53AC8A5B1D17AD3500778BB5 /* MetalDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A521D17AD3500778BB5 /* MetalDataStructures.swift */; };
+		53AC8A5C1D17AD3500778BB5 /* MetalUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A531D17AD3500778BB5 /* MetalUtilityFunctions.swift */; };
+		53AC8A5D1D17AD3500778BB5 /* PoolingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A541D17AD3500778BB5 /* PoolingLayer.swift */; };
+		53AC8A5E1D17AD3500778BB5 /* RectifierLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A551D17AD3500778BB5 /* RectifierLayer.swift */; };
+		53AC8A5F1D17AD3500778BB5 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8A561D17AD3500778BB5 /* Shaders.metal */; };
+		53AC8A621D17AF4300778BB5 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8A611D17AF4300778BB5 /* test */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53AC8A401D17AC2000778BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53AC8A2B1D17AC2000778BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AC8A331D17AC2000778BB5;
+			remoteInfo = DeepLearningKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53AC8A341D17AC2000778BB5 /* DeepLearningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeepLearningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AC8A371D17AC2000778BB5 /* DeepLearningKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepLearningKit.h; sourceTree = "<group>"; };
+		53AC8A391D17AC2000778BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AC8A3E1D17AC2000778BB5 /* DeepLearningKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLearningKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AC8A431D17AC2000778BB5 /* DeepLearningKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLearningKitTests.swift; sourceTree = "<group>"; };
+		53AC8A451D17AC2000778BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AC8A4E1D17AD3500778BB5 /* ConvolutionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvolutionLayer.swift; sourceTree = "<group>"; };
+		53AC8A4F1D17AD3500778BB5 /* DeepNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepNetwork.swift; sourceTree = "<group>"; };
+		53AC8A501D17AD3500778BB5 /* DeepNetwork+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+JSON.swift"; sourceTree = "<group>"; };
+		53AC8A511D17AD3500778BB5 /* DeepNetwork+SetupNetworkFromDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+SetupNetworkFromDict.swift"; sourceTree = "<group>"; };
+		53AC8A521D17AD3500778BB5 /* MetalDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalDataStructures.swift; sourceTree = "<group>"; };
+		53AC8A531D17AD3500778BB5 /* MetalUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalUtilityFunctions.swift; sourceTree = "<group>"; };
+		53AC8A541D17AD3500778BB5 /* PoolingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolingLayer.swift; sourceTree = "<group>"; };
+		53AC8A551D17AD3500778BB5 /* RectifierLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectifierLayer.swift; sourceTree = "<group>"; };
+		53AC8A561D17AD3500778BB5 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		53AC8A601D17AEDE00778BB5 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		53AC8A611D17AF4300778BB5 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AC8A301D17AC2000778BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AC8A3B1D17AC2000778BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8A3F1D17AC2000778BB5 /* DeepLearningKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53AC8A2A1D17AC2000778BB5 = {
+			isa = PBXGroup;
+			children = (
+				53AC8A611D17AF4300778BB5 /* test */,
+				53AC8A601D17AEDE00778BB5 /* .travis.yml */,
+				53AC8A361D17AC2000778BB5 /* DeepLearningKit */,
+				53AC8A421D17AC2000778BB5 /* DeepLearningKitTests */,
+				53AC8A351D17AC2000778BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AC8A351D17AC2000778BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8A341D17AC2000778BB5 /* DeepLearningKit.framework */,
+				53AC8A3E1D17AC2000778BB5 /* DeepLearningKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AC8A361D17AC2000778BB5 /* DeepLearningKit */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8A371D17AC2000778BB5 /* DeepLearningKit.h */,
+				53AC8A4F1D17AD3500778BB5 /* DeepNetwork.swift */,
+				53AC8A4E1D17AD3500778BB5 /* ConvolutionLayer.swift */,
+				53AC8A501D17AD3500778BB5 /* DeepNetwork+JSON.swift */,
+				53AC8A511D17AD3500778BB5 /* DeepNetwork+SetupNetworkFromDict.swift */,
+				53AC8A521D17AD3500778BB5 /* MetalDataStructures.swift */,
+				53AC8A531D17AD3500778BB5 /* MetalUtilityFunctions.swift */,
+				53AC8A541D17AD3500778BB5 /* PoolingLayer.swift */,
+				53AC8A551D17AD3500778BB5 /* RectifierLayer.swift */,
+				53AC8A561D17AD3500778BB5 /* Shaders.metal */,
+				53AC8A391D17AC2000778BB5 /* Info.plist */,
+			);
+			path = DeepLearningKit;
+			sourceTree = "<group>";
+		};
+		53AC8A421D17AC2000778BB5 /* DeepLearningKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8A431D17AC2000778BB5 /* DeepLearningKitTests.swift */,
+				53AC8A451D17AC2000778BB5 /* Info.plist */,
+			);
+			path = DeepLearningKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53AC8A311D17AC2000778BB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8A381D17AC2000778BB5 /* DeepLearningKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53AC8A331D17AC2000778BB5 /* DeepLearningKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AC8A481D17AC2000778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKit" */;
+			buildPhases = (
+				53AC8A2F1D17AC2000778BB5 /* Sources */,
+				53AC8A301D17AC2000778BB5 /* Frameworks */,
+				53AC8A311D17AC2000778BB5 /* Headers */,
+				53AC8A321D17AC2000778BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLearningKit;
+			productName = DeepLearningKit;
+			productReference = 53AC8A341D17AC2000778BB5 /* DeepLearningKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53AC8A3D1D17AC2000778BB5 /* DeepLearningKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AC8A4B1D17AC2000778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKitTests" */;
+			buildPhases = (
+				53AC8A3A1D17AC2000778BB5 /* Sources */,
+				53AC8A3B1D17AC2000778BB5 /* Frameworks */,
+				53AC8A3C1D17AC2000778BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53AC8A411D17AC2000778BB5 /* PBXTargetDependency */,
+			);
+			name = DeepLearningKitTests;
+			productName = DeepLearningKitTests;
+			productReference = 53AC8A3E1D17AC2000778BB5 /* DeepLearningKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AC8A2B1D17AC2000778BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DeepLearningKit;
+				TargetAttributes = {
+					53AC8A331D17AC2000778BB5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					53AC8A3D1D17AC2000778BB5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 53AC8A2E1D17AC2000778BB5 /* Build configuration list for PBXProject "DeepLearningKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53AC8A2A1D17AC2000778BB5;
+			productRefGroup = 53AC8A351D17AC2000778BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AC8A331D17AC2000778BB5 /* DeepLearningKit */,
+				53AC8A3D1D17AC2000778BB5 /* DeepLearningKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AC8A321D17AC2000778BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8A621D17AF4300778BB5 /* test in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AC8A3C1D17AC2000778BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AC8A2F1D17AC2000778BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8A581D17AD3500778BB5 /* DeepNetwork.swift in Sources */,
+				53AC8A5E1D17AD3500778BB5 /* RectifierLayer.swift in Sources */,
+				53AC8A5B1D17AD3500778BB5 /* MetalDataStructures.swift in Sources */,
+				53AC8A591D17AD3500778BB5 /* DeepNetwork+JSON.swift in Sources */,
+				53AC8A5D1D17AD3500778BB5 /* PoolingLayer.swift in Sources */,
+				53AC8A571D17AD3500778BB5 /* ConvolutionLayer.swift in Sources */,
+				53AC8A5F1D17AD3500778BB5 /* Shaders.metal in Sources */,
+				53AC8A5C1D17AD3500778BB5 /* MetalUtilityFunctions.swift in Sources */,
+				53AC8A5A1D17AD3500778BB5 /* DeepNetwork+SetupNetworkFromDict.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AC8A3A1D17AC2000778BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8A441D17AC2000778BB5 /* DeepLearningKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53AC8A411D17AC2000778BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53AC8A331D17AC2000778BB5 /* DeepLearningKit */;
+			targetProxy = 53AC8A401D17AC2000778BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53AC8A461D17AC2000778BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53AC8A471D17AC2000778BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53AC8A491D17AC2000778BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DeepLearningKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.iswe.labs.DeepLearningKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53AC8A4A1D17AC2000778BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DeepLearningKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.iswe.labs.DeepLearningKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53AC8A4C1D17AC2000778BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLearningKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.iswe.labs.DeepLearningKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53AC8A4D1D17AC2000778BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLearningKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.iswe.labs.DeepLearningKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AC8A2E1D17AC2000778BB5 /* Build configuration list for PBXProject "DeepLearningKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AC8A461D17AC2000778BB5 /* Debug */,
+				53AC8A471D17AC2000778BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AC8A481D17AC2000778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AC8A491D17AC2000778BB5 /* Debug */,
+				53AC8A4A1D17AC2000778BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AC8A4B1D17AC2000778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AC8A4C1D17AC2000778BB5 /* Debug */,
+				53AC8A4D1D17AC2000778BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AC8A2B1D17AC2000778BB5 /* Project object */;
+}
