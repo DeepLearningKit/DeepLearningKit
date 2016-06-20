@@ -1,6 +1,6 @@
 //
-//  DeepLearningKitTests.swift
-//  DeepLearningKitTests
+//  DeepLearningKit_OSXTests.swift
+//  DeepLearningKit-OSXTests
 //
 //  Created by Rafael Almeida on 20/06/16.
 //  Copyright © 2016 DeepLearningKit. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import DeepLearningKit
 
-class DeepLearningKitTests: XCTestCase {
+class DeepLearningKit_OSXTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -20,8 +20,8 @@ class DeepLearningKitTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-
-    func testExample() {
+    
+    func testDeepNetwork() {
         let deepNetwork = DeepNetwork()
         XCTAssertNotNil(deepNetwork)
     }

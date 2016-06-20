@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53AC8A331D17AC2000778BB5"
-               BuildableName = "DeepLearningKit.framework"
-               BlueprintName = "DeepLearningKit"
+               BlueprintIdentifier = "53AC8A981D17C02E00778BB5"
+               BuildableName = "DeepLearningKit-tvOS.framework"
+               BlueprintName = "DeepLearningKit-tvOS"
                ReferencedContainer = "container:DeepLearningKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53AC8A3D1D17AC2000778BB5"
-               BuildableName = "DeepLearningKitTests.xctest"
-               BlueprintName = "DeepLearningKitTests"
+               BlueprintIdentifier = "53AC8AA11D17C02E00778BB5"
+               BuildableName = "DeepLearningKit-tvOSTests.xctest"
+               BlueprintName = "DeepLearningKit-tvOSTests"
                ReferencedContainer = "container:DeepLearningKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53AC8A331D17AC2000778BB5"
-            BuildableName = "DeepLearningKit.framework"
-            BlueprintName = "DeepLearningKit"
+            BlueprintIdentifier = "53AC8A981D17C02E00778BB5"
+            BuildableName = "DeepLearningKit-tvOS.framework"
+            BlueprintName = "DeepLearningKit-tvOS"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53AC8A331D17AC2000778BB5"
-            BuildableName = "DeepLearningKit.framework"
-            BlueprintName = "DeepLearningKit"
+            BlueprintIdentifier = "53AC8A981D17C02E00778BB5"
+            BuildableName = "DeepLearningKit-tvOS.framework"
+            BlueprintName = "DeepLearningKit-tvOS"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53AC8A331D17AC2000778BB5"
-            BuildableName = "DeepLearningKit.framework"
-            BlueprintName = "DeepLearningKit"
+            BlueprintIdentifier = "53AC8A981D17C02E00778BB5"
+            BuildableName = "DeepLearningKit-tvOS.framework"
+            BlueprintName = "DeepLearningKit-tvOS"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

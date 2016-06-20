@@ -7,13 +7,13 @@ function xcode_tests {
         set -e;
         set -x; # print commands executed; use subshell to avoid having to print 'set +x' to disable it
         # Run Tests via OS X
-        xcodebuild test -workspace Snorlax.xcworkspace -scheme Snorlax-OSX -destination "platform=OS X" &&
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-OSX -destination "platform=OS X" &&
 
         # Run Tests via iOS
-        xcodebuild test -workspace Snorlax.xcworkspace -scheme Snorlax-iOS -destination "platform=iOS Simulator,name=iPhone 6,OS=9.2" &&
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-iOS -destination "platform=iOS Simulator,name=iPhone 6,OS=9.2" &&
 
         # Run Tests via tvOS
-        xcodebuild test -workspace Snorlax.xcworkspace -scheme Snorlax-tvOS -destination "platform=tvOS Simulator,name=Apple TV 1080p,OS=9.1"
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-tvOS -destination "platform=tvOS Simulator,name=Apple TV 1080p,OS=9.1"
     )
     echo
     echo "Xcode tests passed"
