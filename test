@@ -43,15 +43,18 @@ function help {
     echo
 }
 
-for arg in "$@"
-do
-    case $arg in
-        "spm") spm_tests;;
-        "xcode") xcode_tests;;
-        "help") help;;
-    esac
-done
+xcode_tests
 
-if [ $# == 0 ]; then
-    help
-fi
+#
+#for arg in "$@"
+#do
+#    case $arg in
+#        "spm") spm_tests;;
+#        "xcode") xcode_tests;;
+##        "help") help;;
+#    esac
+#done
+
+#if [ $# == 0 ]; then
+#    help
+#fi
