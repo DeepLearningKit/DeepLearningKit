@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DeepLearningKit
 
 class ViewController: UIViewController {
 
@@ -37,22 +38,20 @@ class ViewController: UIViewController {
         
         let imageShape:[Float] = [1.0, 3.0, 32.0, 32.0]
         
-        var caching_mode = false
-        
         // 0. load network in network model
-        deepNetwork.loadDeepNetworkFromJSON("nin_cifar10_full", inputImage: image, inputShape: imageShape, caching_mode:caching_mode)
+        deepNetwork.loadNetworkFromJson("nin_cifar10_full")
         
         // 1. classify image (of cat)
-        deepNetwork.classify(image)
+        deepNetwork.classify(image, shape:imageShape)
         
         
         // 2. reset deep network and classify random image
-        deepNetwork.loadDeepNetworkFromJSON("nin_cifar10_full", inputImage: randomimage, inputShape: imageShape,caching_mode:caching_mode)
-        deepNetwork.classify(randomimage)
+        deepNetwork.loadNetworkFromJson("nin_cifar10_full")
+        deepNetwork.classify(randomimage, shape:imageShape)
         
         // 3. reset deep network and classify cat image again
-        deepNetwork.loadDeepNetworkFromJSON("nin_cifar10_full", inputImage: image, inputShape: imageShape,caching_mode:caching_mode)
-        deepNetwork.classify(image)
+        deepNetwork.loadNetworkFromJson("nin_cifar10_full")
+        deepNetwork.classify(image, shape:imageShape)
         
         exit(0)
     }

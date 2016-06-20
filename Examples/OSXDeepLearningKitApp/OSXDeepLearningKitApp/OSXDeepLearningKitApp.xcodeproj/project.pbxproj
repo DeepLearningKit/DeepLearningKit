@@ -26,7 +26,6 @@
 		6B0A936A1C724D9A00D73DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B0A936C1C724D9A00D73DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B0A93731C724DD200D73DEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6B0A93761C724DD800D73DEB /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		6B64DA1E1C724EE60048FD13 /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
 		6B64DA2F1C724F020048FD13 /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				53AC8ACA1D17D2E300778BB5 /* DeepLearningKit.framework */,
-				6B0A93761C724DD800D73DEB /* Metal.framework */,
 				6B0A93731C724DD200D73DEB /* QuartzCore.framework */,
 				6B0A93621C724D9A00D73DEB /* OSXDeepLearningKitApp */,
 				6B0A93611C724D9A00D73DEB /* Products */,

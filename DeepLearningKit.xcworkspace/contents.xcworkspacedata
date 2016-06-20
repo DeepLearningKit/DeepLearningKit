@@ -8,6 +8,9 @@
       location = "container:"
       name = "Examples">
       <FileRef
+         location = "group:Examples/tvOSDeepLearningKitApp/tvOSDeepLearningKitApp/tvOSDeepLearningKitApp.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Examples/OSXDeepLearningKitApp/OSXDeepLearningKitApp/OSXDeepLearningKitApp.xcodeproj">
       </FileRef>
       <FileRef
