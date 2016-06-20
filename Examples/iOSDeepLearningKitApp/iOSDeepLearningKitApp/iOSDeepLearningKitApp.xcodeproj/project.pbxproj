@@ -7,23 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53AC8AC81D17CD0300778BB5 /* DeepLearningKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AC8AC71D17CD0300778BB5 /* DeepLearningKit.framework */; };
+		53AC8AC91D17D0F200778BB5 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B14E401C6FEAA600FCB69C /* Metal.framework */; };
 		67B14E2F1C6FE91400FCB69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E2E1C6FE91400FCB69C /* AppDelegate.swift */; };
 		67B14E311C6FE91400FCB69C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E301C6FE91400FCB69C /* ViewController.swift */; };
 		67B14E341C6FE91400FCB69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E321C6FE91400FCB69C /* Main.storyboard */; };
 		67B14E361C6FE91400FCB69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E351C6FE91400FCB69C /* Assets.xcassets */; };
 		67B14E391C6FE91400FCB69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E371C6FE91400FCB69C /* LaunchScreen.storyboard */; };
-		67B14E411C6FEAA600FCB69C /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B14E401C6FEAA600FCB69C /* Metal.framework */; };
 		67B14E431C6FEAAC00FCB69C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B14E421C6FEAAC00FCB69C /* QuartzCore.framework */; };
-		67B14E451C6FEC9400FCB69C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E441C6FEC9400FCB69C /* Shaders.metal */; };
-		67B14E471C6FECA400FCB69C /* MetalDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E461C6FECA400FCB69C /* MetalDataStructures.swift */; };
-		67B14E491C6FECAD00FCB69C /* MetalUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E481C6FECAD00FCB69C /* MetalUtilityFunctions.swift */; };
-		67B14E4B1C6FECD800FCB69C /* DeepNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E4A1C6FECD800FCB69C /* DeepNetwork.swift */; };
-		67B14E4D1C6FECDE00FCB69C /* DeepNetwork+Classify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E4C1C6FECDE00FCB69C /* DeepNetwork+Classify.swift */; };
-		67B14E4F1C6FECE500FCB69C /* DeepNetwork+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E4E1C6FECE500FCB69C /* DeepNetwork+JSON.swift */; };
-		67B14E511C6FECF000FCB69C /* DeepNetwork+SetupNetworkFromDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E501C6FECF000FCB69C /* DeepNetwork+SetupNetworkFromDict.swift */; };
-		67B14E531C6FED0300FCB69C /* ConvolutionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E521C6FED0300FCB69C /* ConvolutionLayer.swift */; };
-		67B14E551C6FED0D00FCB69C /* PoolingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E541C6FED0D00FCB69C /* PoolingLayer.swift */; };
-		67B14E571C6FED1200FCB69C /* RectifierLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B14E561C6FED1200FCB69C /* RectifierLayer.swift */; };
 		67B14E591C6FED2800FCB69C /* nin_cifar10_full.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E581C6FED2800FCB69C /* nin_cifar10_full.json */; };
 		67B14E5B1C6FED2D00FCB69C /* pool1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5A1C6FED2D00FCB69C /* pool1.json */; };
 		67B14E5D1C6FED8A00FCB69C /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 67B14E5C1C6FED8A00FCB69C /* conv1.json */; };
@@ -32,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53AC8AC71D17CD0300778BB5 /* DeepLearningKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeepLearningKit.framework; path = "../../../../../../../Users/rafael/Library/Developer/Xcode/DerivedData/DeepLearningKit-csfprtnhalzpycftepmcgcebvxbt/Build/Products/Debug-iphoneos/DeepLearningKit.framework"; sourceTree = "<group>"; };
 		67B14E2B1C6FE91400FCB69C /* iOSDeepLearningKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDeepLearningKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B14E2E1C6FE91400FCB69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B14E301C6FE91400FCB69C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,16 +33,6 @@
 		67B14E3A1C6FE91400FCB69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B14E401C6FEAA600FCB69C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		67B14E421C6FEAAC00FCB69C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		67B14E441C6FEC9400FCB69C /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		67B14E461C6FECA400FCB69C /* MetalDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalDataStructures.swift; sourceTree = "<group>"; };
-		67B14E481C6FECAD00FCB69C /* MetalUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalUtilityFunctions.swift; sourceTree = "<group>"; };
-		67B14E4A1C6FECD800FCB69C /* DeepNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepNetwork.swift; sourceTree = "<group>"; };
-		67B14E4C1C6FECDE00FCB69C /* DeepNetwork+Classify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+Classify.swift"; sourceTree = "<group>"; };
-		67B14E4E1C6FECE500FCB69C /* DeepNetwork+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+JSON.swift"; sourceTree = "<group>"; };
-		67B14E501C6FECF000FCB69C /* DeepNetwork+SetupNetworkFromDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeepNetwork+SetupNetworkFromDict.swift"; sourceTree = "<group>"; };
-		67B14E521C6FED0300FCB69C /* ConvolutionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvolutionLayer.swift; sourceTree = "<group>"; };
-		67B14E541C6FED0D00FCB69C /* PoolingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolingLayer.swift; sourceTree = "<group>"; };
-		67B14E561C6FED1200FCB69C /* RectifierLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectifierLayer.swift; sourceTree = "<group>"; };
 		67B14E581C6FED2800FCB69C /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
 		67B14E5A1C6FED2D00FCB69C /* pool1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pool1.json; sourceTree = "<group>"; };
 		67B14E5C1C6FED8A00FCB69C /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
@@ -63,8 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AC8AC91D17D0F200778BB5 /* Metal.framework in Frameworks */,
+				53AC8AC81D17CD0300778BB5 /* DeepLearningKit.framework in Frameworks */,
 				67B14E431C6FEAAC00FCB69C /* QuartzCore.framework in Frameworks */,
-				67B14E411C6FEAA600FCB69C /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +57,7 @@
 		67B14E221C6FE91400FCB69C = {
 			isa = PBXGroup;
 			children = (
+				53AC8AC71D17CD0300778BB5 /* DeepLearningKit.framework */,
 				67B14E421C6FEAAC00FCB69C /* QuartzCore.framework */,
 				67B14E401C6FEAA600FCB69C /* Metal.framework */,
 				67B14E2D1C6FE91400FCB69C /* iOSDeepLearningKitApp */,
@@ -101,16 +85,6 @@
 				67B14E371C6FE91400FCB69C /* LaunchScreen.storyboard */,
 				67B14E581C6FED2800FCB69C /* nin_cifar10_full.json */,
 				67B14E5A1C6FED2D00FCB69C /* pool1.json */,
-				67B14E441C6FEC9400FCB69C /* Shaders.metal */,
-				67B14E461C6FECA400FCB69C /* MetalDataStructures.swift */,
-				67B14E481C6FECAD00FCB69C /* MetalUtilityFunctions.swift */,
-				67B14E4A1C6FECD800FCB69C /* DeepNetwork.swift */,
-				67B14E4C1C6FECDE00FCB69C /* DeepNetwork+Classify.swift */,
-				67B14E4E1C6FECE500FCB69C /* DeepNetwork+JSON.swift */,
-				67B14E501C6FECF000FCB69C /* DeepNetwork+SetupNetworkFromDict.swift */,
-				67B14E521C6FED0300FCB69C /* ConvolutionLayer.swift */,
-				67B14E541C6FED0D00FCB69C /* PoolingLayer.swift */,
-				67B14E561C6FED1200FCB69C /* RectifierLayer.swift */,
 				67B14E3A1C6FE91400FCB69C /* Info.plist */,
 				6B57D6381C831ED60082387B /* ImageUtilityFunctions.swift */,
 			);
@@ -157,7 +131,7 @@
 				TargetAttributes = {
 					67B14E2A1C6FE91400FCB69C = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = PVJ976FS8J;
+						DevelopmentTeam = K8ZY6W8PC2;
 					};
 				};
 			};
@@ -201,19 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B57D6391C831ED60082387B /* ImageUtilityFunctions.swift in Sources */,
-				67B14E451C6FEC9400FCB69C /* Shaders.metal in Sources */,
-				67B14E471C6FECA400FCB69C /* MetalDataStructures.swift in Sources */,
-				67B14E4D1C6FECDE00FCB69C /* DeepNetwork+Classify.swift in Sources */,
-				67B14E4B1C6FECD800FCB69C /* DeepNetwork.swift in Sources */,
-				67B14E511C6FECF000FCB69C /* DeepNetwork+SetupNetworkFromDict.swift in Sources */,
 				67B14E311C6FE91400FCB69C /* ViewController.swift in Sources */,
 				67B14E2F1C6FE91400FCB69C /* AppDelegate.swift in Sources */,
-				67B14E4F1C6FECE500FCB69C /* DeepNetwork+JSON.swift in Sources */,
-				67B14E531C6FED0300FCB69C /* ConvolutionLayer.swift in Sources */,
 				6B57D62F1C82E16F0082387B /* UIImageExtension.swift in Sources */,
-				67B14E571C6FED1200FCB69C /* RectifierLayer.swift in Sources */,
-				67B14E551C6FED0D00FCB69C /* PoolingLayer.swift in Sources */,
-				67B14E491C6FECAD00FCB69C /* MetalUtilityFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -325,10 +289,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOSDeepLearningKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.iOSDeepLearningKitApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.iswe.labs.DeepLearningKit-iOS-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -337,10 +303,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOSDeepLearningKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.iOSDeepLearningKitApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.iswe.labs.DeepLearningKit-iOS-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

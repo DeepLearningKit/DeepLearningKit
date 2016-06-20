@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53AC8A7C1D17BFF400778BB5"
-               BuildableName = "DeepLearningKit-OSX.framework"
+               BuildableName = "DeepLearningKit.framework"
                BlueprintName = "DeepLearningKit-OSX"
                ReferencedContainer = "container:DeepLearningKit.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53AC8A7C1D17BFF400778BB5"
-            BuildableName = "DeepLearningKit-OSX.framework"
+            BuildableName = "DeepLearningKit.framework"
             BlueprintName = "DeepLearningKit-OSX"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53AC8A7C1D17BFF400778BB5"
-            BuildableName = "DeepLearningKit-OSX.framework"
+            BuildableName = "DeepLearningKit.framework"
             BlueprintName = "DeepLearningKit-OSX"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>
@@ -97,7 +97,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53AC8A7C1D17BFF400778BB5"
-            BuildableName = "DeepLearningKit-OSX.framework"
+            BuildableName = "DeepLearningKit.framework"
             BlueprintName = "DeepLearningKit-OSX"
             ReferencedContainer = "container:DeepLearningKit.xcodeproj">
          </BuildableReference>

@@ -4,4 +4,14 @@
    <FileRef
       location = "group:DeepLearningKit.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Examples">
+      <FileRef
+         location = "group:Examples/OSXDeepLearningKitApp/OSXDeepLearningKitApp/OSXDeepLearningKitApp.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Examples/iOSDeepLearningKitApp/iOSDeepLearningKitApp/iOSDeepLearningKitApp.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

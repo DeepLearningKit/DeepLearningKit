@@ -916,6 +916,7 @@
 				53AC8A901D17BFF400778BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53AC8A911D17BFF400778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKit-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -924,6 +925,7 @@
 				53AC8A931D17BFF400778BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53AC8AAA1D17C02E00778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKit-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -932,6 +934,7 @@
 				53AC8AAC1D17C02E00778BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53AC8AAD1D17C02E00778BB5 /* Build configuration list for PBXNativeTarget "DeepLearningKit-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -940,6 +943,7 @@
 				53AC8AAF1D17C02E00778BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

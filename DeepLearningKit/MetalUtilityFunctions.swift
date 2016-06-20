@@ -14,7 +14,7 @@ func createComplexNumbersArray(count: Int) -> [MetalComplexNumberType] {
     return [MetalComplexNumberType](count: count, repeatedValue: zeroComplexNumber)
 }
 
-func createFloatNumbersArray(count: Int) -> [Float] {
+public func createFloatNumbersArray(count: Int) -> [Float] {
     return [Float](count: count, repeatedValue: 0.0)
 }
 
