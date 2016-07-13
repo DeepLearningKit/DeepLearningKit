@@ -5,7 +5,7 @@
 ### 0. DeepLearningKit Publication
 <pre>
 @misc{2015DeepLearningKit,
-    author = {<a href="https://deeplearning.education">Amund Tveit</a>, Torbjørn Morland and Thomas Brox Røst},
+    author = {<a href="https://amundtveit.com">Amund Tveit</a>, Torbjørn Morland and Thomas Brox Røst},
     title = {DeepLearningKit - an Open Source Deep Learning Framework for 
              Apple's iOS, OS X and tvOS developed in Metal and Swift}, 
     url = {<a href="https://arxiv.org/abs/1605.04614">https://arxiv.org/abs/1605.04614</a>},
