@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53AC8ACF1D17D9F600778BB5 /* DeepLearningKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AC8ACE1D17D9F600778BB5 /* DeepLearningKit.framework */; };
+		6B2942D71C73CCF80002721C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942D61C73CCF80002721C /* AppDelegate.swift */; };
+		6B2942D91C73CCF80002721C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2942D81C73CCF80002721C /* ViewController.swift */; };
+		6B2942DC1C73CCF80002721C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2942DA1C73CCF80002721C /* Main.storyboard */; };
+		6B2942DE1C73CCF80002721C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2942DD1C73CCF80002721C /* Assets.xcassets */; };
+		6B2942E61C73CE3C0002721C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2942E51C73CE3B0002721C /* QuartzCore.framework */; };
+		6B2942F11C73CEB20002721C /* nin_cifar10_full.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B2942EB1C73CEB20002721C /* nin_cifar10_full.json */; };
+		6B2942FB1C73CEBB0002721C /* conv1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B2942F51C73CEBB0002721C /* conv1.json */; };
+		6B57D6321C82E6610082387B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D6311C82E6610082387B /* UIImageExtension.swift */; };
+		6B57D63B1C8321980082387B /* ImageUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53AC8ACE1D17D9F600778BB5 /* DeepLearningKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeepLearningKit.framework; path = "../../../../../../../Users/rafael/Library/Developer/Xcode/DerivedData/DeepLearningKit-csfprtnhalzpycftepmcgcebvxbt/Build/Products/Debug-appletvsimulator/DeepLearningKit.framework"; sourceTree = "<group>"; };
+		6B2942D31C73CCF80002721C /* tvOSDeepLearningKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSDeepLearningKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2942D61C73CCF80002721C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B2942D81C73CCF80002721C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B2942DB1C73CCF80002721C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B2942DD1C73CCF80002721C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B2942DF1C73CCF80002721C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2942E51C73CE3B0002721C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6B2942EB1C73CEB20002721C /* nin_cifar10_full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nin_cifar10_full.json; sourceTree = "<group>"; };
+		6B2942F51C73CEBB0002721C /* conv1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conv1.json; sourceTree = "<group>"; };
+		6B57D6311C82E6610082387B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtilityFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2942D01C73CCF80002721C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AC8ACF1D17D9F600778BB5 /* DeepLearningKit.framework in Frameworks */,
+				6B2942E61C73CE3C0002721C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2942CA1C73CCF80002721C = {
+			isa = PBXGroup;
+			children = (
+				53AC8ACE1D17D9F600778BB5 /* DeepLearningKit.framework */,
+				6B2942E51C73CE3B0002721C /* QuartzCore.framework */,
+				6B2942D51C73CCF80002721C /* tvOSDeepLearningKitApp */,
+				6B2942D41C73CCF80002721C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2942D41C73CCF80002721C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2942D31C73CCF80002721C /* tvOSDeepLearningKitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2942D51C73CCF80002721C /* tvOSDeepLearningKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				6B57D6301C82E6290082387B /* ThirdParty */,
+				6B2942D61C73CCF80002721C /* AppDelegate.swift */,
+				6B2942D81C73CCF80002721C /* ViewController.swift */,
+				6B2942F51C73CEBB0002721C /* conv1.json */,
+				6B2942DA1C73CCF80002721C /* Main.storyboard */,
+				6B2942EB1C73CEB20002721C /* nin_cifar10_full.json */,
+				6B2942DD1C73CCF80002721C /* Assets.xcassets */,
+				6B2942DF1C73CCF80002721C /* Info.plist */,
+				6B57D63A1C8321980082387B /* ImageUtilityFunctions.swift */,
+			);
+			path = tvOSDeepLearningKitApp;
+			sourceTree = "<group>";
+		};
+		6B57D6301C82E6290082387B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6B57D6311C82E6610082387B /* UIImageExtension.swift */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2942D21C73CCF80002721C /* tvOSDeepLearningKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2942E21C73CCF80002721C /* Build configuration list for PBXNativeTarget "tvOSDeepLearningKitApp" */;
+			buildPhases = (
+				6B2942CF1C73CCF80002721C /* Sources */,
+				6B2942D01C73CCF80002721C /* Frameworks */,
+				6B2942D11C73CCF80002721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSDeepLearningKitApp;
+			productName = tvOSDeepLearningKitApp;
+			productReference = 6B2942D31C73CCF80002721C /* tvOSDeepLearningKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B2942CB1C73CCF80002721C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DeepLearningKit;
+				TargetAttributes = {
+					6B2942D21C73CCF80002721C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6B2942CE1C73CCF80002721C /* Build configuration list for PBXProject "tvOSDeepLearningKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2942CA1C73CCF80002721C;
+			productRefGroup = 6B2942D41C73CCF80002721C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2942D21C73CCF80002721C /* tvOSDeepLearningKitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2942D11C73CCF80002721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2942DE1C73CCF80002721C /* Assets.xcassets in Resources */,
+				6B2942FB1C73CEBB0002721C /* conv1.json in Resources */,
+				6B2942DC1C73CCF80002721C /* Main.storyboard in Resources */,
+				6B2942F11C73CEB20002721C /* nin_cifar10_full.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2942CF1C73CCF80002721C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B57D63B1C8321980082387B /* ImageUtilityFunctions.swift in Sources */,
+				6B2942D91C73CCF80002721C /* ViewController.swift in Sources */,
+				6B57D6321C82E6610082387B /* UIImageExtension.swift in Sources */,
+				6B2942D71C73CCF80002721C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B2942DA1C73CCF80002721C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2942DB1C73CCF80002721C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B2942E01C73CCF80002721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6B2942E11C73CCF80002721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2942E31C73CCF80002721C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvOSDeepLearningKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.tvOSDeepLearningKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		6B2942E41C73CCF80002721C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvOSDeepLearningKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.deeplearningkit.tvOSDeepLearningKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B2942CE1C73CCF80002721C /* Build configuration list for PBXProject "tvOSDeepLearningKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2942E01C73CCF80002721C /* Debug */,
+				6B2942E11C73CCF80002721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2942E21C73CCF80002721C /* Build configuration list for PBXNativeTarget "tvOSDeepLearningKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2942E31C73CCF80002721C /* Debug */,
+				6B2942E41C73CCF80002721C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B2942CB1C73CCF80002721C /* Project object */;
+}

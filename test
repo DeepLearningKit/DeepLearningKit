@@ -1,0 +1,60 @@
+#!/bin/bash
+
+set -e # exit on failure
+
+function xcode_tests {
+    (
+        set -e;
+        set -x; # print commands executed; use subshell to avoid having to print 'set +x' to disable it
+        # Run Tests via OS X
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-OSX -destination "platform=OS X" &&
+
+        # Run Tests via iOS
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-iOS -destination "platform=iOS Simulator,name=iPhone 6,OS=9.2" &&
+
+        # Run Tests via tvOS
+        xcodebuild test -workspace DeepLearningKit.xcworkspace -scheme DeepLearningKit-tvOS -destination "platform=tvOS Simulator,name=Apple TV 1080p,OS=9.1"
+    )
+    echo
+    echo "Xcode tests passed"
+}
+
+function spm_tests {
+    (
+        set -e;
+        set -x; # print commands executed; use subshell to avoid having to print 'set +x' to disable it
+        swift build --clean &&
+        swift build &&
+        swift test
+    )
+    echo
+    echo "SPM tests passed"
+}
+
+function help {
+    echo "Usage: $0 COMMANDS..."
+    echo
+    echo "Runs specific test suites."
+    echo
+    echo "COMMANDS:"
+    echo "  spm:   runs tests via Swift Package Manager (Linux)"
+    echo "  xcode: runs tests via Xcode (OS X, iOS, tvOS)"
+    echo "  help:  Displays this help"
+    echo
+}
+
+xcode_tests
+
+#
+#for arg in "$@"
+#do
+#    case $arg in
+#        "spm") spm_tests;;
+#        "xcode") xcode_tests;;
+##        "help") help;;
+#    esac
+#done
+
+#if [ $# == 0 ]; then
+#    help
+#fi
